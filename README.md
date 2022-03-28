@@ -100,12 +100,12 @@ Beyond that, just about every aspect of the panel is fully customizable. From po
 **To install the most recent official release:
 [Visit Dash-to-Panel at GNOME Extensions](https://extensions.gnome.org/extension/1160/dash-to-panel/)**
 
-To install a development version from source, please see the [Installation wiki page](https://github.com/jderose9/dash-to-panel/wiki/Installation).
+To install a development version from source, please see the [Installation wiki page](https://github.com/miigotu/dash-to-panel/wiki/Installation).
 
 ## 
 ### FAQ
 
-How do I customize the panel? [See the Wiki](https://github.com/home-sweet-gnome/dash-to-panel/wiki/Enable-and-Customize#customize-it)
+How do I customize the panel? [See the Wiki](https://github.com/miigotu/dash-to-panel/wiki/Enable-and-Customize#customize-it)
 
 How do I embed my bottom left notification drawer into the panel like a system tray? [Top Icons Plus](https://extensions.gnome.org/extension/2311/topicons-plus) or [(K)StatusNotifierItem/AppIndicator Support](https://extensions.gnome.org/extension/615/appindicator-support)
 
@@ -136,12 +136,13 @@ This extension manipulates the Gnome Main Panel, aka Top Bar. So, most other ext
 ##
 ### Volunteers needed!
 
-This extension could be even better with your help! Any items in the issue tracker labelled `help wanted` or `good first issue` are up for grabs. For more info, see the [Contributing wiki page](https://github.com/jderose9/dash-to-panel/wiki/Contributing).
+This extension could be even better with your help! Any items in the issue tracker labelled `help wanted` or `good first issue` are up for grabs. For more info, see the [Contributing wiki page](https://github.com/miigotu/dash-to-panel/wiki/Contributing).
 
 ## 
 ### Credits
 
-This extension is developed and maintained by [@jderose9](https://github.com/jderose9) and [@charlesg99](https://github.com/charlesg99).
+This extension is developed and maintained by [@miigotu](https://github.com/miigotu).
+It is shamelessly forked from the original dash-to-panel developed and maintained by [@jderose9](https://github.com/jderose9) and [@charlesg99](https://github.com/charlesg99)
 
 Significant portions of code in this extension were derived from [Dash-to-Dock](https://micheleg.github.io/dash-to-dock/index.html).
 
@@ -153,6 +154,7 @@ Ideas for recursing child actors and assigning inline styles are based on code f
 
 #### Thanks to the following people for contributing via pull requests:
 
+- @jderose9 and @charlesg99 for the original dash-to-panel
 - @franglais125 for launching apps by number (w/ overlay), bug fixes, and issue support
 - @LinxGem33 and @sbarrett322 for artwork, logos, screenshots and design effort
 - @dziku1337 for peek mode in window previews
@@ -184,6 +186,6 @@ Ideas for recursing child actors and assigning inline styles are based on code f
 ## 
 ### License & Terms ![](media/design/png/copyleft-16.png)
 
-Dash to Panel is available under the terms of the GPL-v2 or later license See [`COPYING`](https://github.com/jderose9/dash-to-panel/blob/master/COPYING) for details.
+Dash to Panel is available under the terms of the GPL-v2 or later license See [`COPYING`](https://github.com/miigotu/dash-to-panel/blob/main/COPYING) for details.
 
 ![](https://img.shields.io/badge/Language-JavaScript-yellow.svg) ![](https://img.shields.io/badge/Licence-GPL--2.0-blue.svg)

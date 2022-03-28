@@ -7386,7 +7386,7 @@
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
                     <property name="halign">center</property>
-                    <property name="uri">https://github.com/jderose9/dash-to-panel</property>
+                    <property name="uri">https://github.com/miigotu/dash-to-panel</property>
                   </object>
                 </child>
               </object>
