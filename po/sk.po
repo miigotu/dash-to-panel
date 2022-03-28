@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-10 18:36+0800\n"
+"Project-Id-Version: dash-to-panel\n"
+"Report-Msgid-Bugs-To: https://github.com/miigotu/dash-to-panel/issues\n"
+"POT-Creation-Date: 2022-03-28 00:55-0400\n"
 "PO-Revision-Date: 2021-08-05 14:16+0200\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: \n"
@@ -18,141 +18,141 @@ msgstr ""
 "X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 
-#: prefs.js:200
+#: prefs.js:199
 msgid "Show Desktop button height (px)"
 msgstr "Výška tlačidla plochy (px)"
 
-#: prefs.js:200
+#: prefs.js:199
 msgid "Show Desktop button width (px)"
 msgstr "Šírka tlačidla plochy (px)"
 
-#: prefs.js:212
+#: prefs.js:211
 msgid "Unavailable when gnome-shell top panel is present"
 msgstr "Nedostupné, ak je aktívny horný panel gnome-shell"
 
-#: prefs.js:270 Settings.ui.h:171
+#: prefs.js:269 Settings.ui.h:171
 msgid "Left"
 msgstr "Vľavo"
 
-#: prefs.js:271
+#: prefs.js:270
 msgid "Center"
 msgstr "Stred"
 
-#: prefs.js:272 Settings.ui.h:172
+#: prefs.js:271 Settings.ui.h:172
 msgid "Right"
 msgstr "Vpravo"
 
-#: prefs.js:274 Settings.ui.h:106
+#: prefs.js:273 Settings.ui.h:106
 msgid "Top"
 msgstr "Hore"
 
-#: prefs.js:275 prefs.js:280 Settings.ui.h:167
+#: prefs.js:274 prefs.js:279 Settings.ui.h:167
 msgid "Middle"
 msgstr "V strede"
 
-#: prefs.js:276 Settings.ui.h:105
+#: prefs.js:275 Settings.ui.h:105
 msgid "Bottom"
 msgstr "Dole"
 
-#: prefs.js:279 Settings.ui.h:166
+#: prefs.js:278 Settings.ui.h:166
 msgid "Start"
 msgstr "Začiatok"
 
-#: prefs.js:281 Settings.ui.h:168
+#: prefs.js:280 Settings.ui.h:168
 msgid "End"
 msgstr "Koniec"
 
-#: prefs.js:366
+#: prefs.js:365
 msgid "Show Applications button"
 msgstr "Tlačidlo aplikácií"
 
-#: prefs.js:367
+#: prefs.js:366
 msgid "Activities button"
 msgstr "Tlačidlo aktivít"
 
-#: prefs.js:368
+#: prefs.js:367
 msgid "Taskbar"
 msgstr "Zoznam úloh"
 
-#: prefs.js:369
+#: prefs.js:368
 msgid "Date menu"
 msgstr "Menu hodín"
 
-#: prefs.js:370
+#: prefs.js:369
 msgid "System menu"
 msgstr "Systémové menu"
 
-#: prefs.js:371
+#: prefs.js:370
 msgid "Left box"
 msgstr "Ľavý blok"
 
-#: prefs.js:372
+#: prefs.js:371
 msgid "Center box"
 msgstr "Prostredný blok"
 
-#: prefs.js:373
+#: prefs.js:372
 msgid "Right box"
 msgstr "Pravý blok"
 
-#: prefs.js:374
+#: prefs.js:373
 msgid "Desktop button"
 msgstr "Tlačidlo plochy"
 
-#: prefs.js:380
+#: prefs.js:379
 msgid "Move up"
 msgstr "Presunúť hore"
 
-#: prefs.js:382
+#: prefs.js:381
 msgid "Move down"
 msgstr "Presunúť dole"
 
-#: prefs.js:384
+#: prefs.js:383
 msgid "Visible"
 msgstr "Viditeľný"
 
-#: prefs.js:385
+#: prefs.js:384
 msgid "Select element position"
 msgstr "Vyberte umiestnenie prvku"
 
-#: prefs.js:396
+#: prefs.js:395
 msgid "Stacked to top"
 msgstr "Zvrchu"
 
-#: prefs.js:396
+#: prefs.js:395
 msgid "Stacked to left"
 msgstr "Zľava"
 
-#: prefs.js:397
+#: prefs.js:396
 msgid "Stacked to bottom"
 msgstr "Zdola"
 
-#: prefs.js:397
+#: prefs.js:396
 msgid "Stacked to right"
 msgstr "Sprava"
 
-#: prefs.js:398
+#: prefs.js:397
 msgid "Centered"
 msgstr "Na stred"
 
-#: prefs.js:399
+#: prefs.js:398
 msgid "Monitor Center"
 msgstr "Stred monitora"
 
-#: prefs.js:418
+#: prefs.js:417
 msgid "More options"
 msgstr "Viac možností"
 
-#: prefs.js:440
+#: prefs.js:439
 msgid "Show Applications options"
 msgstr "Zobraziť ikonu <i>aplikácií</i>"
 
-#: prefs.js:447 prefs.js:512 prefs.js:732 prefs.js:1078 prefs.js:1222 prefs.js:1345
-#: prefs.js:1634 prefs.js:1730 prefs.js:1796 prefs.js:1840 prefs.js:1938
-#: prefs.js:1973 prefs.js:2016 prefs.js:2152
+#: prefs.js:446 prefs.js:512 prefs.js:732 prefs.js:1078 prefs.js:1222
+#: prefs.js:1345 prefs.js:1634 prefs.js:1730 prefs.js:1796 prefs.js:1840
+#: prefs.js:1938 prefs.js:1973 prefs.js:2016 prefs.js:2152
 msgid "Reset to defaults"
 msgstr "Nastaviť na predvolené"
 
-#: prefs.js:453
+#: prefs.js:452
 msgid "Open icon"
 msgstr "Otvoriť ikonu"
 
@@ -167,8 +167,8 @@ msgstr "%d ms"
 
 #: prefs.js:610
 #, javascript-format
-msgid "%d ."
-msgstr "%d ."
+msgid "%d °"
+msgstr ""
 
 #: prefs.js:615 prefs.js:620
 #, javascript-format
@@ -252,79 +252,31 @@ msgstr "Exportovať nastavenia"
 msgid "Import settings"
 msgstr "Importovať nastavenia"
 
-#: appIcons.js:1492
-msgid "Show Details"
-msgstr "Zobraziť podrobnosti"
-
-#: appIcons.js:1510
-msgid "New Window"
-msgstr "Nové okno"
-
-#: appIcons.js:1510 appIcons.js:1570 appIcons.js:1572 Settings.ui.h:21
+#: appIcons.js:1483 appIcons.js:1491 appIcons.js:1493 Settings.ui.h:21
 msgid "Quit"
 msgstr "Ukončiť"
 
-#: appIcons.js:1572
+#: appIcons.js:1493
 msgid "Windows"
 msgstr "Okná"
 
-#: appIcons.js:1859
-msgid "Power options"
-msgstr "Možnosti napájania"
-
-#: appIcons.js:1864
-msgid "Event logs"
-msgstr "Udalosti"
-
-#: appIcons.js:1869
-msgid "System"
-msgstr "Systém"
-
-#: appIcons.js:1874
-msgid "Device Management"
-msgstr "Správa zariadení"
-
-#: appIcons.js:1879
-msgid "Disk Management"
-msgstr "Správa diskov"
-
-#: appIcons.js:1893
-msgid "Terminal"
-msgstr "Terminál"
-
-#: appIcons.js:1898
-msgid "System monitor"
-msgstr "Sledovanie systému"
-
-#: appIcons.js:1903
-msgid "Files"
-msgstr "Súbory"
-
-#: appIcons.js:1908
-msgid "Extensions"
-msgstr "Rozšírenia"
-
-#: appIcons.js:1913
-msgid "Settings"
-msgstr "Nastavenia"
-
-#: appIcons.js:1925
+#: appIcons.js:1835
 msgid "Unlock taskbar"
 msgstr "Odomknúť panel úloh"
 
-#: appIcons.js:1925
+#: appIcons.js:1835
 msgid "Lock taskbar"
 msgstr "Zamknúť panel úloh"
 
-#: appIcons.js:1930
+#: appIcons.js:1840
 msgid "Dash to Panel Settings"
 msgstr "Nastavenia Dash to Panel"
 
-#: appIcons.js:1943
+#: appIcons.js:1853
 msgid "Restore Windows"
 msgstr "Obnoviť okná"
 
-#: appIcons.js:1943
+#: appIcons.js:1853
 msgid "Show Desktop"
 msgstr "Zobraziť plochu"
 
@@ -374,8 +326,10 @@ msgstr "Zatiaľ nedostupné!"
 
 #: Settings.ui.h:12
 msgid ""
-"When set to minimize, double clicking minimizes all the windows of the application."
-msgstr "Ak je nastavená minimalizácia, dvojklik minimalizuje všetky okná aplikácie."
+"When set to minimize, double clicking minimizes all the windows of the "
+"application."
+msgstr ""
+"Ak je nastavená minimalizácia, dvojklik minimalizuje všetky okná aplikácie."
 
 #: Settings.ui.h:13
 msgid "Shift+Click action"
@@ -531,11 +485,12 @@ msgstr "Použiť pevnú šírku pre názov aplikácie"
 
 #: Settings.ui.h:52
 msgid ""
-"The application titles all have the same width, even if their texts are shorter "
-"than the maximum width. The maximum width value is used as the fixed width."
+"The application titles all have the same width, even if their texts are "
+"shorter than the maximum width. The maximum width value is used as the fixed "
+"width."
 msgstr ""
-"Názvy aplikácií majú rovnakú šírku aj keď je text kratší. Maximálna hodnota sa "
-"použije pre všetky aplikácie."
+"Názvy aplikácií majú rovnakú šírku aj keď je text kratší. Maximálna hodnota "
+"sa použije pre všetky aplikácie."
 
 #: Settings.ui.h:53
 msgid "Display running indicators on unfocused applications"
@@ -775,7 +730,8 @@ msgstr "Povoliť režim náhľadu okna"
 
 #: Settings.ui.h:114
 msgid ""
-"When hovering over a window preview for some time, the window gets distinguished."
+"When hovering over a window preview for some time, the window gets "
+"distinguished."
 msgstr "Rozlíšiť okná pri podržaní myši nad tlačidlom náhľadu."
 
 #: Settings.ui.h:115
@@ -788,9 +744,10 @@ msgstr "50"
 
 #: Settings.ui.h:117
 msgid ""
-"Time of inactivity while hovering over a window preview needed to enter the window "
-"peeking mode."
-msgstr "Čas nečinnosti nad ikonou potrebného na prepnutie do režimu náhľadu okna."
+"Time of inactivity while hovering over a window preview needed to enter the "
+"window peeking mode."
+msgstr ""
+"Čas nečinnosti nad ikonou potrebného na prepnutie do režimu náhľadu okna."
 
 #: Settings.ui.h:118
 msgid "Window peeking mode opacity"
@@ -802,7 +759,8 @@ msgstr "0"
 
 #: Settings.ui.h:120
 msgid ""
-"All windows except for the peeked one have their opacity set to the same value."
+"All windows except for the peeked one have their opacity set to the same "
+"value."
 msgstr "Všetky okna, okrem aktívneho, majú rovnaké nastavenie priehľadnosti."
 
 #: Settings.ui.h:121
@@ -819,7 +777,8 @@ msgstr "Zobraziť upozornenie pri zmene pracovného priestoru"
 
 #: Settings.ui.h:124
 msgid "This affects workspace popup when scrolling on the panel only."
-msgstr "Toto ovplyvní upozornenie pracovného priestoru iba pri skrolovaní na paneli."
+msgstr ""
+"Toto ovplyvní upozornenie pracovného priestoru iba pri skrolovaní na paneli."
 
 #: Settings.ui.h:125
 msgid "Super"
@@ -855,7 +814,8 @@ msgstr "Zobraziť číslo"
 
 #: Settings.ui.h:133
 msgid ""
-"Temporarily show the application numbers over the icons when using the hotkeys."
+"Temporarily show the application numbers over the icons when using the "
+"hotkeys."
 msgstr "Dočasne zobraziť čísla aplikácií pri použití klávesových skratiek."
 
 #: Settings.ui.h:134
@@ -972,13 +932,18 @@ msgid "Apply changes to all monitors"
 msgstr "Použiť zmeny na všetkých monitoroch"
 
 #: Settings.ui.h:163
-msgid "Panel thickness\n(default is 48)"
-msgstr "Šírka panela\n(predvolená: 48)"
+#, fuzzy
+msgid "Panel thickness&#10;(default is 48)"
+msgstr ""
+"Šírka panela\n"
+"(predvolená: 48)"
 
 #: Settings.ui.h:165
-#, no-c-format
-msgid "Panel length (%)\n(default is 100)"
-msgstr "Dĺžka panela (%)\n(predvolená: 100)"
+#, fuzzy, no-c-format
+msgid "Panel length (%)&#10;(default is 100)"
+msgstr ""
+"Dĺžka panela (%)\n"
+"(predvolená: 100)"
 
 #: Settings.ui.h:169
 msgid "Anchor"
@@ -993,12 +958,18 @@ msgid "Position"
 msgstr "Umiestnenie"
 
 #: Settings.ui.h:174
-msgid "App Icon Margin\n(default is 8)"
-msgstr "Rozostup ikon aplikácií\n(predvolený: 8)"
+#, fuzzy
+msgid "App Icon Margin&#10;(default is 8)"
+msgstr ""
+"Rozostup ikon aplikácií\n"
+"(predvolený: 8)"
 
 #: Settings.ui.h:175
-msgid "App Icon Padding\n(default is 4)"
-msgstr "Odsadenie ikon aplikácií\n(predvolené: 4)"
+#, fuzzy
+msgid "App Icon Padding&#10;(default is 4)"
+msgstr ""
+"Odsadenie ikon aplikácií\n"
+"(predvolené: 4)"
 
 #: Settings.ui.h:176
 msgid "Running indicator position"
@@ -1102,8 +1073,8 @@ msgstr "Zobraziť tlačidlo aplikácií"
 #: Settings.ui.h:203
 msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
 msgstr ""
-"V nástroji <i>Vyladenia</i> musíte aktivovať Horná lišta > Aktívny roh prehľadu "
-"aktivít"
+"V nástroji <i>Vyladenia</i> musíte aktivovať Horná lišta > Aktívny roh "
+"prehľadu aktivít"
 
 #: Settings.ui.h:204
 msgid "Show window previews on hover"
@@ -1187,11 +1158,11 @@ msgstr "Rovnaké ako panel"
 
 #: Settings.ui.h:224
 msgid ""
-"Enable Super+(0-9) as shortcuts to activate apps. It can also be used together "
-"with Shift and Ctrl."
+"Enable Super+(0-9) as shortcuts to activate apps. It can also be used "
+"together with Shift and Ctrl."
 msgstr ""
-"Povoliť klávesové skratky Super+(0-9) pre spúšťanie aplikácií. Dajú sa použiť v "
-"kombinácií s Shift a Ctrl."
+"Povoliť klávesové skratky Super+(0-9) pre spúšťanie aplikácií. Dajú sa "
+"použiť v kombinácií s Shift a Ctrl."
 
 #: Settings.ui.h:225
 msgid "Use hotkeys to activate apps"
@@ -1202,26 +1173,39 @@ msgid "Action"
 msgstr "Akcia"
 
 #: Settings.ui.h:227
-msgid "Tray Font Size\n(0 = theme default)"
-msgstr "Veľkosť písma stavovej oblasti\n(0 = určená motívom)"
+#, fuzzy
+msgid "Tray Font Size&#10;(0 = theme default)"
+msgstr ""
+"Veľkosť písma stavovej oblasti\n"
+"(0 = určená motívom)"
 
 #: Settings.ui.h:228
-msgid "LeftBox Font Size\n(0 = theme default)"
-msgstr "Veľkosť písma ľavého bloku\n(0 = určená motívom)"
+#, fuzzy
+msgid "LeftBox Font Size&#10;(0 = theme default)"
+msgstr ""
+"Veľkosť písma ľavého bloku\n"
+"(0 = určená motívom)"
 
 #: Settings.ui.h:229
-msgid "Tray Item Padding\n(-1 = theme default)"
-msgstr "Odsadenie položiek v systémovej oblasti\n(-1 = určené motívom)"
+#, fuzzy
+msgid "Tray Item Padding&#10;(-1 = theme default)"
+msgstr ""
+"Odsadenie položiek v systémovej oblasti\n"
+"(-1 = určené motívom)"
 
 #: Settings.ui.h:230
-msgid "Status Icon Padding\n(-1 = theme default)"
+#, fuzzy
+msgid "Status Icon Padding&#10;(-1 = theme default)"
 msgstr ""
 "Odsadenie medzi stavovými ikonami\n"
 "(-1 = určené motívom)"
 
 #: Settings.ui.h:231
-msgid "LeftBox Padding\n(-1 = theme default)"
-msgstr "Odsadenie v ľavom bloku\n(-1 = určené motívom)"
+#, fuzzy
+msgid "LeftBox Padding&#10;(-1 = theme default)"
+msgstr ""
+"Odsadenie v ľavom bloku\n"
+"(-1 = určené motívom)"
 
 #: Settings.ui.h:232
 msgid "Animate switching applications"
@@ -1265,11 +1249,11 @@ msgstr "GitHub"
 
 #: Settings.ui.h:243
 msgid ""
-"Use the buttons below to create a settings file from your current preferences that "
-"can be imported on a different machine."
+"Use the buttons below to create a settings file from your current "
+"preferences that can be imported on a different machine."
 msgstr ""
-"Pomocou tlačidiel nižšie exportujete vaše aktuálne nastavenia do súboru. Tento "
-"súbor potom môžete importovať na inom počítači."
+"Pomocou tlačidiel nižšie exportujete vaše aktuálne nastavenia do súboru. "
+"Tento súbor potom môžete importovať na inom počítači."
 
 #: Settings.ui.h:244
 msgid "Export and import settings"
@@ -1284,41 +1268,81 @@ msgid "Import from file"
 msgstr "Importovať zo súboru"
 
 #: Settings.ui.h:247
+#, fuzzy
 msgid ""
-"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the "
-"<a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General "
-"Public License, version 2 or later</a> for details.</span>"
+"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.&#10;See "
+"the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
+"General Public License, version 2 or later</a> for details.</span>"
 msgstr ""
 "<span size=\"small\">Tento program je ponúkaný BEZ AKÝCHKOĽVEK ZÁRUK.\n"
-"Prečítajte si <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-"\">GNU General Public License, verziu 2 alebo novšiu</a>.</span>"
+"Prečítajte si <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0."
+"html\">GNU General Public License, verziu 2 alebo novšiu</a>.</span>"
 
 #: Settings.ui.h:248
 msgid "About"
 msgstr "O rozšírení"
 
-msgid "Preview timeout on icon leave (ms)"
-msgstr "Časový limit náhľadu pri opustení kurzora (ms)"
+#, javascript-format
+#~ msgid "%d ."
+#~ msgstr "%d ."
 
-msgid ""
-"If set too low, the window preview of running applications may seem to close too "
-"quickly when trying to enter the popup. If set too high, the preview may linger "
-"too long when moving to an adjacent icon."
-msgstr ""
-"Ak je nastavený na príliš nízku hodnotu, náhľady okien bežiacich aplikácií môžu "
-"byť pri pokuse o ich aktiváciu zatvorené príliš rýchlo. Ak je limit nastavený príliš "
-"vysoko, náhľady môžu byť zobrazené príliš dlho pri snahe o prepnutie na ďalšiu "
-"ikonu."
+#~ msgid "Show Details"
+#~ msgstr "Zobraziť podrobnosti"
 
-msgid "Natural"
-msgstr "Prirodzený"
+#~ msgid "New Window"
+#~ msgstr "Nové okno"
 
-msgid "Left side of panel"
-msgstr "Ľavá strana panela"
+#~ msgid "Power options"
+#~ msgstr "Možnosti napájania"
 
-msgid "Centered in content"
-msgstr "Stred obsahu"
+#~ msgid "Event logs"
+#~ msgstr "Udalosti"
 
-msgid "Github"
-msgstr "Github"
+#~ msgid "System"
+#~ msgstr "Systém"
 
+#~ msgid "Device Management"
+#~ msgstr "Správa zariadení"
+
+#~ msgid "Disk Management"
+#~ msgstr "Správa diskov"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminál"
+
+#~ msgid "System monitor"
+#~ msgstr "Sledovanie systému"
+
+#~ msgid "Files"
+#~ msgstr "Súbory"
+
+#~ msgid "Extensions"
+#~ msgstr "Rozšírenia"
+
+#~ msgid "Settings"
+#~ msgstr "Nastavenia"
+
+#~ msgid "Preview timeout on icon leave (ms)"
+#~ msgstr "Časový limit náhľadu pri opustení kurzora (ms)"
+
+#~ msgid ""
+#~ "If set too low, the window preview of running applications may seem to "
+#~ "close too quickly when trying to enter the popup. If set too high, the "
+#~ "preview may linger too long when moving to an adjacent icon."
+#~ msgstr ""
+#~ "Ak je nastavený na príliš nízku hodnotu, náhľady okien bežiacich "
+#~ "aplikácií môžu byť pri pokuse o ich aktiváciu zatvorené príliš rýchlo. Ak "
+#~ "je limit nastavený príliš vysoko, náhľady môžu byť zobrazené príliš dlho "
+#~ "pri snahe o prepnutie na ďalšiu ikonu."
+
+#~ msgid "Natural"
+#~ msgstr "Prirodzený"
+
+#~ msgid "Left side of panel"
+#~ msgstr "Ľavá strana panela"
+
+#~ msgid "Centered in content"
+#~ msgstr "Stred obsahu"
+
+#~ msgid "Github"
+#~ msgstr "Github"

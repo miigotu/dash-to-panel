@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 19:15+0430\n"
+"Project-Id-Version: dash-to-panel\n"
+"Report-Msgid-Bugs-To: https://github.com/miigotu/dash-to-panel/issues\n"
+"POT-Creation-Date: 2022-03-28 00:55-0400\n"
 "PO-Revision-Date: 2021-09-11 11:29+0430\n"
 "Last-Translator: eshagh <eshagh094@gmail.com>\n"
 "Language-Team: persian\n"
@@ -253,39 +253,31 @@ msgstr "برون‌ریزی تنظیمات"
 msgid "Import settings"
 msgstr "درون‌ریزی تنظیمات"
 
-#: appIcons.js:1492
-msgid "Show Details"
-msgstr "نمایش جزییات"
-
-#: appIcons.js:1510
-msgid "New Window"
-msgstr "پنجرهٔ جدید"
-
-#: appIcons.js:1510 appIcons.js:1570 appIcons.js:1572 Settings.ui.h:21
+#: appIcons.js:1483 appIcons.js:1491 appIcons.js:1493 Settings.ui.h:21
 msgid "Quit"
 msgstr "خروج"
 
-#: appIcons.js:1572
+#: appIcons.js:1493
 msgid "Windows"
 msgstr "پنجره‌ها"
 
-#: appIcons.js:1925
+#: appIcons.js:1835
 msgid "Unlock taskbar"
 msgstr "بازگشایی نوار وظیفه"
 
-#: appIcons.js:1925
+#: appIcons.js:1835
 msgid "Lock taskbar"
 msgstr "قفل کردن نوار وظیفه"
 
-#: appIcons.js:1930
+#: appIcons.js:1840
 msgid "Dash to Panel Settings"
 msgstr "تنظیمات Dash to Panel"
 
-#: appIcons.js:1943
+#: appIcons.js:1853
 msgid "Restore Windows"
 msgstr "بازیابی پنجره‌ها"
 
-#: appIcons.js:1943
+#: appIcons.js:1853
 msgid "Show Desktop"
 msgstr "نمایش میزکار"
 
@@ -940,18 +932,15 @@ msgid "Apply changes to all monitors"
 msgstr "اعمال تغییرات به همه نمایشگرها"
 
 #: Settings.ui.h:163
-msgid ""
-"Panel thickness\n"
-"(default is 48)"
+#, fuzzy
+msgid "Panel thickness&#10;(default is 48)"
 msgstr ""
 "ضخامت تابلو\n"
 "(پیش‌گزیده 48 است)"
 
 #: Settings.ui.h:165
-#, no-c-format
-msgid ""
-"Panel length (%)\n"
-"(default is 100)"
+#, fuzzy, no-c-format
+msgid "Panel length (%)&#10;(default is 100)"
 msgstr ""
 "طول تابلو (%)\n"
 "(پیش‌گزیده 100 است)"
@@ -969,17 +958,15 @@ msgid "Position"
 msgstr "موقعیت"
 
 #: Settings.ui.h:174
-msgid ""
-"App Icon Margin\n"
-"(default is 8)"
+#, fuzzy
+msgid "App Icon Margin&#10;(default is 8)"
 msgstr ""
 "حاشیهٔ نقشک برنامه\n"
 "(پیش‌گزیده 8 است)"
 
 #: Settings.ui.h:175
-msgid ""
-"App Icon Padding\n"
-"(default is 4)"
+#, fuzzy
+msgid "App Icon Padding&#10;(default is 4)"
 msgstr ""
 "لایه‌گذاری نقشک برنامه\n"
 "(پیش‌گزیده 4 است)"
@@ -1182,41 +1169,36 @@ msgid "Action"
 msgstr "کنش"
 
 #: Settings.ui.h:227
-msgid ""
-"Tray Font Size\n"
-"(0 = theme default)"
+#, fuzzy
+msgid "Tray Font Size&#10;(0 = theme default)"
 msgstr ""
 "اندازهٔ قلم سینی\n"
 "(پیش‌گزیدهٔ زمینه = 0)"
 
 #: Settings.ui.h:228
-msgid ""
-"LeftBox Font Size\n"
-"(0 = theme default)"
+#, fuzzy
+msgid "LeftBox Font Size&#10;(0 = theme default)"
 msgstr ""
 "اندازهٔ قلم جعبهٔ چپ\n"
 "(پیش‌گزیدهٔ زمینه = 0)"
 
 #: Settings.ui.h:229
-msgid ""
-"Tray Item Padding\n"
-"(-1 = theme default)"
+#, fuzzy
+msgid "Tray Item Padding&#10;(-1 = theme default)"
 msgstr ""
 "لایه‌گذاری موارد سینی\n"
 "(پیش‌گزیدهٔ زمینه = ‎-1)"
 
 #: Settings.ui.h:230
-msgid ""
-"Status Icon Padding\n"
-"(-1 = theme default)"
+#, fuzzy
+msgid "Status Icon Padding&#10;(-1 = theme default)"
 msgstr ""
 "لایه‌گذاری نقشک وضعیت\n"
 "(پیش‌گزیدهٔ زمینه = ‎-1)"
 
 #: Settings.ui.h:231
-msgid ""
-"LeftBox Padding\n"
-"(-1 = theme default)"
+#, fuzzy
+msgid "LeftBox Padding&#10;(-1 = theme default)"
 msgstr ""
 "لایه‌گذاری جعبهٔ چپ\n"
 "(پیش‌گزیدهٔ زمینه = ‎-1)"
@@ -1282,10 +1264,11 @@ msgid "Import from file"
 msgstr "درون‌ریزی از پرونده"
 
 #: Settings.ui.h:247
+#, fuzzy
 msgid ""
-"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\n"
-"See the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-"\">GNU General Public License, version 2 or later</a> for details.</span>"
+"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.&#10;See "
+"the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
+"General Public License, version 2 or later</a> for details.</span>"
 msgstr ""
 "<span size=\"small\">این برنامه بی هیچ ضمانتی ارائه شده است.\n"
 "برای جزییات، <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.fr."
@@ -1294,6 +1277,12 @@ msgstr ""
 #: Settings.ui.h:248
 msgid "About"
 msgstr "درباره"
+
+#~ msgid "Show Details"
+#~ msgstr "نمایش جزییات"
+
+#~ msgid "New Window"
+#~ msgstr "پنجرهٔ جدید"
 
 #~ msgid "Top Bar"
 #~ msgstr "نوار بالا"

@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-03 21:05+0900\n"
+"Project-Id-Version: dash-to-panel\n"
+"Report-Msgid-Bugs-To: https://github.com/miigotu/dash-to-panel/issues\n"
+"POT-Creation-Date: 2022-03-28 00:55-0400\n"
 "PO-Revision-Date: 2021-08-28 12:05+0900\n"
 "Last-Translator: nexryai <nexryai@outlook.com>\n"
 "Language-Team: Japanese\n"
@@ -20,11 +20,316 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.0\n"
 
-#: Settings.ui:43
+#: prefs.js:199
+msgid "Show Desktop button height (px)"
+msgstr "デスクトップ表示ボタンの高さ (px)"
+
+#: prefs.js:199
+msgid "Show Desktop button width (px)"
+msgstr "デスクトップ表示ボタンの幅 (px)"
+
+#: prefs.js:211
+msgid "Unavailable when gnome-shell top panel is present"
+msgstr "GNOME Shell のトップバーが表示されている場合は利用できません"
+
+#: prefs.js:269 Settings.ui.h:171
+msgid "Left"
+msgstr "左"
+
+#: prefs.js:270
+#, fuzzy
+msgid "Center"
+msgstr "中央"
+
+#: prefs.js:271 Settings.ui.h:172
+msgid "Right"
+msgstr "右"
+
+#: prefs.js:273 Settings.ui.h:106
+msgid "Top"
+msgstr "上"
+
+#: prefs.js:274 prefs.js:279 Settings.ui.h:167
+msgid "Middle"
+msgstr ""
+
+#: prefs.js:275 Settings.ui.h:105
+msgid "Bottom"
+msgstr "下"
+
+#: prefs.js:278 Settings.ui.h:166
+msgid "Start"
+msgstr ""
+
+#: prefs.js:280 Settings.ui.h:168
+msgid "End"
+msgstr ""
+
+#: prefs.js:365
+msgid "Show Applications button"
+msgstr "アプリケーション表示ボタン"
+
+#: prefs.js:366
+msgid "Activities button"
+msgstr "アクティビティボタン"
+
+#: prefs.js:367
+msgid "Taskbar"
+msgstr "タスクバー"
+
+#: prefs.js:368
+msgid "Date menu"
+msgstr "日付メニュー"
+
+#: prefs.js:369
+msgid "System menu"
+msgstr "システムメニュー"
+
+#: prefs.js:370
+msgid "Left box"
+msgstr "左ボックス"
+
+#: prefs.js:371
+msgid "Center box"
+msgstr "中央ボックス"
+
+#: prefs.js:372
+msgid "Right box"
+msgstr "右ボックス"
+
+#: prefs.js:373
+msgid "Desktop button"
+msgstr "デスクトップボタン"
+
+#: prefs.js:379
+msgid "Move up"
+msgstr "上へ移動"
+
+#: prefs.js:381
+msgid "Move down"
+msgstr "下へ移動"
+
+#: prefs.js:383
+msgid "Visible"
+msgstr "表示"
+
+#: prefs.js:384
+msgid "Select element position"
+msgstr "要素の位置を選択してください"
+
+#: prefs.js:395
+msgid "Stacked to top"
+msgstr "上寄せ"
+
+#: prefs.js:395
+msgid "Stacked to left"
+msgstr "左寄せ"
+
+#: prefs.js:396
+msgid "Stacked to bottom"
+msgstr "下寄せ"
+
+#: prefs.js:396
+msgid "Stacked to right"
+msgstr "右寄せ"
+
+#: prefs.js:397
+msgid "Centered"
+msgstr "中央"
+
+#: prefs.js:398
+msgid "Monitor Center"
+msgstr "モニターの中央"
+
+#: prefs.js:417
+msgid "More options"
+msgstr "その他のオプション"
+
+#: prefs.js:439
+msgid "Show Applications options"
+msgstr "アプリケーション表示のオプション"
+
+#: prefs.js:446 prefs.js:512 prefs.js:732 prefs.js:1078 prefs.js:1222
+#: prefs.js:1345 prefs.js:1634 prefs.js:1730 prefs.js:1796 prefs.js:1840
+#: prefs.js:1938 prefs.js:1973 prefs.js:2016 prefs.js:2152
+msgid "Reset to defaults"
+msgstr "初期設定に戻す"
+
+#: prefs.js:452
+msgid "Open icon"
+msgstr ""
+
+#: prefs.js:505
+msgid "Show Desktop options"
+msgstr "デスクトップ表示のオプション"
+
+#: prefs.js:605
+#, javascript-format
+msgid "%d ms"
+msgstr ""
+
+#: prefs.js:610
+#, javascript-format
+msgid "%d °"
+msgstr ""
+
+#: prefs.js:615 prefs.js:620
+#, javascript-format
+msgid "%d %%"
+msgstr ""
+
+#: prefs.js:625
+#, javascript-format
+msgid "%.1f"
+msgstr ""
+
+#: prefs.js:630
+#, javascript-format
+msgid "%d icon"
+msgid_plural "%d icons"
+msgstr[0] ""
+
+#: prefs.js:725
+msgid "Running Indicator Options"
+msgstr "実行中インジケーターのオプション"
+
+#: prefs.js:889
+msgid "Primary monitor"
+msgstr "プライマリーモニター"
+
+#: prefs.js:889
+msgid "Monitor "
+msgstr "モニター "
+
+#: prefs.js:1071
+msgid "Dynamic opacity options"
+msgstr "動的不透明度のオプション"
+
+#: prefs.js:1215
+msgid "Intellihide options"
+msgstr "Intellihide のオプション"
+
+#: prefs.js:1338
+msgid "Window preview options"
+msgstr "ウィンドウプレビューのオプション"
+
+#: prefs.js:1627
+msgid "Ungrouped application options"
+msgstr "アプリケーション非グループ化のオプション"
+
+#: prefs.js:1723
+msgid "Customize middle-click behavior"
+msgstr "中クリックの挙動のカスタマイズ"
+
+#: prefs.js:1789
+msgid "Customize panel scroll behavior"
+msgstr "パネルスクロールの挙動のカスタマイズ"
+
+#: prefs.js:1833
+msgid "Customize icon scroll behavior"
+msgstr "アイコンスクロールの挙動のカスタマイズ"
+
+#: prefs.js:1931
+msgid "Advanced hotkeys options"
+msgstr "高度なホットキーのオプション"
+
+#: prefs.js:1966
+msgid "Secondary Menu Options"
+msgstr "右クリックメニューのオプション"
+
+#: prefs.js:2009 Settings.ui.h:239
+msgid "Advanced Options"
+msgstr "高度なオプション"
+
+#: prefs.js:2145
+#, fuzzy
+msgid "App icon animation options"
+msgstr "アプリケーション表示のオプション"
+
+#: prefs.js:2211
+msgid "Export settings"
+msgstr "設定のエクスポート"
+
+#: prefs.js:2227
+msgid "Import settings"
+msgstr "設定のインポート"
+
+#: appIcons.js:1483 appIcons.js:1491 appIcons.js:1493 Settings.ui.h:21
+msgid "Quit"
+msgstr "終了"
+
+#: appIcons.js:1493
+msgid "Windows"
+msgstr "個のウィンドウ"
+
+#: appIcons.js:1835
+msgid "Unlock taskbar"
+msgstr "タスクバーをロック解除"
+
+#: appIcons.js:1835
+msgid "Lock taskbar"
+msgstr "タスクバーをロック"
+
+#: appIcons.js:1840
+msgid "Dash to Panel Settings"
+msgstr "Dash to Panel の設定"
+
+#: appIcons.js:1853
+msgid "Restore Windows"
+msgstr "ウィンドウを復元"
+
+#: appIcons.js:1853
+msgid "Show Desktop"
+msgstr "デスクトップを表示"
+
+#: Settings.ui.h:1
+#, fuzzy
+msgid "Animation type"
+msgstr "アニメーション時間 (ミリ秒)"
+
+#: Settings.ui.h:2
+msgid "Simple"
+msgstr ""
+
+#: Settings.ui.h:3
+msgid "Ripple"
+msgstr ""
+
+#: Settings.ui.h:4
+msgid "Plank"
+msgstr ""
+
+#: Settings.ui.h:5
+msgid "Duration"
+msgstr ""
+
+#: Settings.ui.h:6
+#, fuzzy
+msgid "Rotation"
+msgstr "位置"
+
+#: Settings.ui.h:7
+msgid "Travel"
+msgstr ""
+
+#: Settings.ui.h:8
+msgid "Zoom"
+msgstr ""
+
+#: Settings.ui.h:9
+msgid "Convexity"
+msgstr ""
+
+#: Settings.ui.h:10
+#, fuzzy
+msgid "Extent"
+msgstr "拡張機能"
+
+#: Settings.ui.h:11
 msgid "Nothing yet!"
 msgstr "まだ何もありません!"
 
-#: Settings.ui:98
+#: Settings.ui.h:12
 msgid ""
 "When set to minimize, double clicking minimizes all the windows of the "
 "application."
@@ -32,155 +337,160 @@ msgstr ""
 "最小化に設定する場合、ダブルクリックでそのアプリケーションのすべてのウィンド"
 "ウを最小化します。"
 
-#: Settings.ui:116
+#: Settings.ui.h:13
 msgid "Shift+Click action"
 msgstr "Shift + クリックの動作"
 
-#: Settings.ui:130 Settings.ui:201 Settings.ui:272 Settings.ui:6529
+#: Settings.ui.h:14
 msgid "Raise windows"
 msgstr "ウィンドウを最前面に移動"
 
-#: Settings.ui:131 Settings.ui:202 Settings.ui:273
+#: Settings.ui.h:15
 msgid "Minimize window"
 msgstr "ウィンドウを最小化"
 
-#: Settings.ui:132 Settings.ui:203 Settings.ui:274 Settings.ui:6530
+#: Settings.ui.h:16
 msgid "Launch new instance"
 msgstr "新規インスタンスを起動"
 
-#: Settings.ui:133 Settings.ui:204 Settings.ui:275 Settings.ui:6526
+#: Settings.ui.h:17
 msgid "Cycle through windows"
 msgstr "ウィンドウを循環表示"
 
-#: Settings.ui:134 Settings.ui:205 Settings.ui:276 Settings.ui:6525
+#: Settings.ui.h:18
 msgid "Cycle windows + minimize"
 msgstr "ウィンドウを循環 + 最小化"
 
-#: Settings.ui:135 Settings.ui:206 Settings.ui:277 Settings.ui:6527
+#: Settings.ui.h:19
 msgid "Toggle single / Preview multiple"
 msgstr "ウィンドウが 1 つなら切り替え"
 
-#: Settings.ui:169
+#: Settings.ui.h:20
+#, fuzzy
+msgid "Toggle single / Cycle multiple"
+msgstr "ウィンドウが 1 つなら切り替え"
+
+#: Settings.ui.h:22
 msgid "Behavior for Middle-Click."
 msgstr "中クリック時の挙動です。"
 
-#: Settings.ui:187
+#: Settings.ui.h:23
 msgid "Middle-Click action"
 msgstr "中クリックの動作"
 
-#: Settings.ui:240
+#: Settings.ui.h:24
 msgid "Behavior for Shift+Middle-Click."
 msgstr "Shift + 中クリック時の挙動です。"
 
-#: Settings.ui:258
+#: Settings.ui.h:25
 msgid "Shift+Middle-Click action"
 msgstr "Shift + 中クリックの動作"
 
-#: Settings.ui:337
+#: Settings.ui.h:26
 msgid "Integrate <i>AppMenu</i> items"
 msgstr "<b>アプリケーションメニュー</b>の項目を統合"
 
-#: Settings.ui:383
+#: Settings.ui.h:27
 msgid "<i>Show Details</i> menu item"
 msgstr "<b>詳細を表示する</b>メニュー項目を表示"
 
-#: Settings.ui:481
+#: Settings.ui.h:28
 msgid "Highlight focused application"
 msgstr "フォーカスされたアプリをハイライト"
 
-#: Settings.ui:512
+#: Settings.ui.h:29
 msgid "Icon dominant color"
 msgstr "アイコンのドミナントカラー"
 
-#: Settings.ui:537
+#: Settings.ui.h:30
 msgid "Custom color"
 msgstr "カスタムカラー"
 
-#: Settings.ui:562
+#: Settings.ui.h:31
 msgid "Highlight opacity"
 msgstr "ハイライトの不透明度"
 
-#: Settings.ui:614
+#: Settings.ui.h:32
 msgid "Indicator size (px)"
 msgstr "インジケーターのサイズ (px)"
 
-#: Settings.ui:658
+#: Settings.ui.h:33
 msgid "Indicator color - Icon Dominant"
 msgstr "インジケーターの色 - アイコンのドミナント"
 
-#: Settings.ui:704
+#: Settings.ui.h:34
 msgid "Indicator color - Override Theme"
 msgstr "インジケーターの色 - テーマを上書き"
 
-#: Settings.ui:747 Settings.ui:933
+#: Settings.ui.h:35
 msgid "1 window open (or ungrouped)"
 msgstr "ウィンドウを 1 つ開く (または非グループ化)"
 
-#: Settings.ui:762 Settings.ui:948
+#: Settings.ui.h:36
 msgid "Apply to all"
 msgstr "すべてに適用"
 
-#: Settings.ui:798 Settings.ui:984
+#: Settings.ui.h:37
 msgid "2 windows open"
 msgstr "ウィンドウを 2 つ開く"
 
-#: Settings.ui:811 Settings.ui:1009
+#: Settings.ui.h:38
 msgid "3 windows open"
 msgstr "ウィンドウを 3 つ開く"
 
-#: Settings.ui:824 Settings.ui:1034
+#: Settings.ui.h:39
 msgid "4+ windows open"
 msgstr "ウィンドウを 4 つ以上開く"
 
-#: Settings.ui:890
+#: Settings.ui.h:40
 msgid "Use different for unfocused"
 msgstr "非フォーカスの場合は異なる色を使用"
 
-#: Settings.ui:1141
+#: Settings.ui.h:41
 msgid "Font size (px) of the application titles (default is 14)"
 msgstr "アプリケーションタイトルのフォントサイズ (px) (初期値は 14)"
 
-#: Settings.ui:1172
+#: Settings.ui.h:42
 msgid "Font weight of application titles"
 msgstr "アプリケーションタイトルのフォントの幅"
 
-#: Settings.ui:1186 Settings.ui:2911
+#: Settings.ui.h:43
 msgid "inherit from theme"
 msgstr "テーマに依存"
 
-#: Settings.ui:1187 Settings.ui:2912
+#: Settings.ui.h:44
 msgid "normal"
 msgstr "普通"
 
-#: Settings.ui:1188 Settings.ui:2913
+#: Settings.ui.h:45
 msgid "lighter"
 msgstr "細い"
 
-#: Settings.ui:1189 Settings.ui:2914
+#: Settings.ui.h:46
 msgid "bold"
 msgstr "太い"
 
-#: Settings.ui:1190 Settings.ui:2915
+#: Settings.ui.h:47
 msgid "bolder"
 msgstr "より太い"
 
-#: Settings.ui:1220
+#: Settings.ui.h:48
 msgid "Font color of the application titles"
 msgstr "アプリケーションタイトルのフォントの色"
 
-#: Settings.ui:1263
+#: Settings.ui.h:49
 msgid "Font color of the minimized application titles"
 msgstr "アプリケーションタイトルのフォントの色 (最小化時)"
 
-#: Settings.ui:1306
+#: Settings.ui.h:50
 msgid "Maximum width (px) of the application titles (default is 160)"
 msgstr "アプリケーションタイトルの最大幅 (px) (初期値は 160)"
 
-#: Settings.ui:1351
+#: Settings.ui.h:51
 msgid "Use a fixed width for the application titles"
 msgstr "アプリケーションタイトルの幅を固定"
 
-#: Settings.ui:1376
+#: Settings.ui.h:52
 msgid ""
 "The application titles all have the same width, even if their texts are "
 "shorter than the maximum width. The maximum width value is used as the fixed "
@@ -189,251 +499,243 @@ msgstr ""
 "アプリケーションタイトルが最大幅より短い場合でも、幅を維持します。最大幅の値"
 "が固定幅の値として使用されます。"
 
-#: Settings.ui:1412
+#: Settings.ui.h:53
 msgid "Display running indicators on unfocused applications"
 msgstr "フォーカスされていないアプリケーションのインジケーターを表示"
 
-#: Settings.ui:1454
+#: Settings.ui.h:54
 msgid "Use the favorite icons as application launchers"
 msgstr "アプリケーションランチャーとしてお気に入りアイコンを使用"
 
-#: Settings.ui:1552
+#: Settings.ui.h:55
 msgid "Only hide the panel when it is obstructed by windows "
 msgstr "ウィンドウが重なっている場合にのみパネルを隠す "
 
-#: Settings.ui:1584
+#: Settings.ui.h:56
 msgid "The panel hides from"
 msgstr "対象のウィンドウ"
 
-#: Settings.ui:1598 Settings.ui:4355
+#: Settings.ui.h:57
 msgid "All windows"
 msgstr "すべてのウィンドウ"
 
-#: Settings.ui:1599 Settings.ui:4356
+#: Settings.ui.h:58
 msgid "Focused windows"
 msgstr "フォーカスされたウィンドウ"
 
-#: Settings.ui:1600 Settings.ui:4357
+#: Settings.ui.h:59
 msgid "Maximized windows"
 msgstr "最大化されたウィンドウ"
 
-#: Settings.ui:1638
+#: Settings.ui.h:60
 msgid "Require pressure at the edge of the screen to reveal the panel"
 msgstr "マウスカーソルを画面端へ押し当てることでパネルを表示"
 
-#: Settings.ui:1670
+#: Settings.ui.h:61
 msgid "Required pressure threshold (px)"
 msgstr "表示に必要な値 (px)"
 
-#: Settings.ui:1699
+#: Settings.ui.h:62
 msgid "Required pressure timeout (ms)"
 msgstr "押し当てのタイムアウト (ミリ秒)"
 
-#: Settings.ui:1754
+#: Settings.ui.h:63
 msgid "Allow the panel to be revealed while in fullscreen mode"
 msgstr "フルスクリーンモード時でのパネルの表示を許可"
 
-#: Settings.ui:1798
+#: Settings.ui.h:64
 msgid "Only hide secondary panels (requires multi-monitors option)"
 msgstr "マルチモニター環境でセカンダリーパネルのみ隠す"
 
-#: Settings.ui:1841
+#: Settings.ui.h:65
 msgid "e.g. <Super>i"
 msgstr "例: <Super>i"
 
-#: Settings.ui:1854
+#: Settings.ui.h:66
 msgid "Keyboard shortcut to reveal and hold the panel"
 msgstr "パネルを表示して固定するキーボードショートカット"
 
-#: Settings.ui:1866 Settings.ui:3641
+#: Settings.ui.h:67
 msgid "Syntax: <Shift>, <Ctrl>, <Alt>, <Super>"
 msgstr "シンタックス: <Shift>、<Ctrl>、<Alt>、<Super>"
 
-#: Settings.ui:1901
+#: Settings.ui.h:68
 msgid "Hide and reveal animation duration (ms)"
 msgstr "表示/非表示アニメーションの長さ (ミリ秒)"
 
-#: Settings.ui:1947
+#: Settings.ui.h:69
 msgid "Delay before hiding the panel (ms)"
 msgstr "パネルを隠す前の遅延 (ミリ秒)"
 
-#: Settings.ui:1994
+#: Settings.ui.h:70
 msgid "Delay before enabling intellihide on start (ms)"
 msgstr "起動時に Intellihide を有効にする前の遅延 (ミリ秒)"
 
-#: Settings.ui:2158
+#: Settings.ui.h:71
 msgid "Time (ms) before showing (400 is default)"
 msgstr "表示までの時間 (ミリ秒) (初期値は 400)"
 
-#: Settings.ui:2172
+#: Settings.ui.h:72
 msgid "Animation time (ms)"
 msgstr "アニメーション時間 (ミリ秒)"
 
-#: Settings.ui:2205
+#: Settings.ui.h:73
 msgid "Time (ms) before hiding (100 is default)"
 msgstr "隠すまでの時間 (ミリ秒) (初期値は 100)"
 
-#: Settings.ui:2229
+#: Settings.ui.h:74
 msgid "Immediate on application icon click"
 msgstr "アプリケーションアイコンをクリックしたら即隠す"
 
-#: Settings.ui:2285
+#: Settings.ui.h:75
 msgid "Middle click on the preview to close the window"
 msgstr "プレビュー上での中クリックでウィンドウを閉じる"
 
-#: Settings.ui:2329
+#: Settings.ui.h:76
 msgid "Window previews preferred size (px)"
 msgstr "ウィンドウプレビューの優先サイズ (px)"
 
-#: Settings.ui:2360
+#: Settings.ui.h:77
 msgid "Window previews aspect ratio Y (height)"
 msgstr "ウィンドウプレビューの Y アスペクト比 (高さ)"
 
-#: Settings.ui:2375
+#: Settings.ui.h:78
 msgid "Window previews padding (px)"
 msgstr "ウィンドウプレビューのパディング (px)"
 
-#: Settings.ui:2415 Settings.ui:2493
+#: Settings.ui.h:79
 msgid "1"
 msgstr "1"
 
-#: Settings.ui:2416 Settings.ui:2494
+#: Settings.ui.h:80
 msgid "2"
 msgstr "2"
 
-#: Settings.ui:2417 Settings.ui:2495
+#: Settings.ui.h:81
 msgid "3"
 msgstr "3"
 
-#: Settings.ui:2418 Settings.ui:2496
+#: Settings.ui.h:82
 msgid "4"
 msgstr "4"
 
-#: Settings.ui:2419 Settings.ui:2497 Settings.ui:2616
+#: Settings.ui.h:83
 msgid "5"
 msgstr "5"
 
-#: Settings.ui:2420 Settings.ui:2498
+#: Settings.ui.h:84
 msgid "6"
 msgstr "6"
 
-#: Settings.ui:2421 Settings.ui:2499
+#: Settings.ui.h:85
 msgid "7"
 msgstr "7"
 
-#: Settings.ui:2422 Settings.ui:2500
+#: Settings.ui.h:86
 msgid "8"
 msgstr "8"
 
-#: Settings.ui:2423 Settings.ui:2501
+#: Settings.ui.h:87
 msgid "9"
 msgstr "9"
 
-#: Settings.ui:2424 Settings.ui:2502
+#: Settings.ui.h:88
 msgid "10"
 msgstr "10"
 
-#: Settings.ui:2425 Settings.ui:2503
+#: Settings.ui.h:89
 msgid "11"
 msgstr "11"
 
-#: Settings.ui:2426 Settings.ui:2504
+#: Settings.ui.h:90
 msgid "12"
 msgstr "12"
 
-#: Settings.ui:2427 Settings.ui:2505
+#: Settings.ui.h:91
 msgid "13"
 msgstr "13"
 
-#: Settings.ui:2428 Settings.ui:2506
+#: Settings.ui.h:92
 msgid "14"
 msgstr "14"
 
-#: Settings.ui:2429 Settings.ui:2507
+#: Settings.ui.h:93
 msgid "15"
 msgstr "15"
 
-#: Settings.ui:2430 Settings.ui:2508
+#: Settings.ui.h:94
 msgid "16"
 msgstr "16"
 
-#: Settings.ui:2431 Settings.ui:2509
+#: Settings.ui.h:95
 msgid "17"
 msgstr "17"
 
-#: Settings.ui:2432 Settings.ui:2510
+#: Settings.ui.h:96
 msgid "18"
 msgstr "18"
 
-#: Settings.ui:2433 Settings.ui:2511
+#: Settings.ui.h:97
 msgid "19"
 msgstr "19"
 
-#: Settings.ui:2434 Settings.ui:2512
+#: Settings.ui.h:98
 msgid "20"
 msgstr "20"
 
-#: Settings.ui:2435 Settings.ui:2513
+#: Settings.ui.h:99
 msgid "21"
 msgstr "21"
 
-#: Settings.ui:2446 Settings.ui:2524
+#: Settings.ui.h:100
 msgid "Fixed"
 msgstr "固定"
 
-#: Settings.ui:2469
+#: Settings.ui.h:101
 msgid "Window previews aspect ratio X (width)"
 msgstr "ウィンドウプレビューの X アスペクト比 (幅)"
 
-#: Settings.ui:2564
+#: Settings.ui.h:102
 msgid "Use custom opacity for the previews background"
 msgstr "プレビューの背景にカスタム不透明度を使用"
 
-#: Settings.ui:2578
+#: Settings.ui.h:103
 msgid "If disabled, the previews background have the same opacity as the panel"
 msgstr "無効の場合、プレビューの背景はパネルの不透明度と同一になります"
 
-#: Settings.ui:2654
+#: Settings.ui.h:104
 msgid "Close button and header position"
 msgstr "閉じるボタンとヘッダーの位置"
 
-#: Settings.ui:2671 Settings.ui:4859 Settings.ui:5224
-msgid "Bottom"
-msgstr "下"
-
-#: Settings.ui:2689 Settings.ui:4878 Settings.ui:5241
-msgid "Top"
-msgstr "上"
-
-#: Settings.ui:2735
+#: Settings.ui.h:107
 msgid "Display window preview headers"
 msgstr "ウィンドウプレビューのヘッダーを表示"
 
-#: Settings.ui:2807
+#: Settings.ui.h:108
 msgid "Icon size (px) of the window preview"
 msgstr "ウィンドウプレビューのアイコンサイズ (px)"
 
-#: Settings.ui:2821
+#: Settings.ui.h:109
 msgid "If disabled, the previews icon size will be based on headerbar size"
 msgstr "無効の場合、ヘッダーバーのサイズを基準にしてアイコンサイズを設定します"
 
-#: Settings.ui:2869
+#: Settings.ui.h:110
 msgid "Font size (px) of the preview titles"
 msgstr "プレビュータイトルのフォントサイズ (px)"
 
-#: Settings.ui:2896
+#: Settings.ui.h:111
 msgid "Font weight of the preview titles"
 msgstr "プレビュータイトルのフォント幅"
 
-#: Settings.ui:2941
+#: Settings.ui.h:112
 msgid "Font color of the preview titles"
 msgstr "プレビュータイトルのフォントの色"
 
-#: Settings.ui:2992
+#: Settings.ui.h:113
 msgid "Enable window peeking"
 msgstr "ウィンドウの覗き見を有効化"
 
-#: Settings.ui:3018
+#: Settings.ui.h:114
 msgid ""
 "When hovering over a window preview for some time, the window gets "
 "distinguished."
@@ -441,15 +743,15 @@ msgstr ""
 "ウィンドウのプレビューにしばらくの間マウスホバーし続けると、そのウィンドウ以"
 "外が透明化されます。"
 
-#: Settings.ui:3043
+#: Settings.ui.h:115
 msgid "Enter window peeking mode timeout (ms)"
 msgstr "ウィンドウ覗き見モードに入る時間 (ミリ秒)"
 
-#: Settings.ui:3057
+#: Settings.ui.h:116
 msgid "50"
 msgstr "50"
 
-#: Settings.ui:3072
+#: Settings.ui.h:117
 msgid ""
 "Time of inactivity while hovering over a window preview needed to enter the "
 "window peeking mode."
@@ -457,16 +759,15 @@ msgstr ""
 "ウィンドウ覗き見モードに入るには、ウィンドウのプレビューにマウスホバーしたま"
 "ま、しばらく動かさずに待つ必要があります。"
 
-#: Settings.ui:3104
+#: Settings.ui.h:118
 msgid "Window peeking mode opacity"
 msgstr "ウィンドウ覗き見モードの不透明度"
 
-#: Settings.ui:3118 Settings.ui:3903 Settings.ui:4448 Settings.ui:5607
-#: Settings.ui:5825 Settings.ui:5863
+#: Settings.ui.h:119
 msgid "0"
 msgstr "0"
 
-#: Settings.ui:3132
+#: Settings.ui.h:120
 msgid ""
 "All windows except for the peeked one have their opacity set to the same "
 "value."
@@ -474,401 +775,403 @@ msgstr ""
 "選択したウィンドウ以外のすべてのウィンドウの不透明度が、設定した値になりま"
 "す。"
 
-#: Settings.ui:3212 Settings.ui:3300
+#: Settings.ui.h:121
 msgid "Delay between mouse scroll events (ms)"
 msgstr "マウススクロールイベント間の遅延 (ミリ秒)"
 
-#: Settings.ui:3226 Settings.ui:3314
+#: Settings.ui.h:122
 msgid "Use this value to limit the number of captured mouse scroll events."
 msgstr "マウススクロールを検知した後、指定した時間スクロールに反応しません。"
 
-#: Settings.ui:3348
+#: Settings.ui.h:123
 msgid "Show popup when changing workspace"
 msgstr "ワークスペース切り替え時にポップアップを表示"
 
-#: Settings.ui:3362
+#: Settings.ui.h:124
 msgid "This affects workspace popup when scrolling on the panel only."
 msgstr ""
-"これはパネル上でスクロールしたときのワークスペースのポップアップにのみ影響します。"
+"これはパネル上でスクロールしたときのワークスペースのポップアップにのみ影響し"
+"ます。"
 
-#: Settings.ui:3444
+#: Settings.ui.h:125
 msgid "Super"
 msgstr "Super"
 
-#: Settings.ui:3445
+#: Settings.ui.h:126
 msgid "Super + Alt"
 msgstr "Super + Alt"
 
-#: Settings.ui:3459
+#: Settings.ui.h:127
 msgid "Hotkeys prefix"
 msgstr "ホットキーのプレフィックス"
 
-#: Settings.ui:3471
+#: Settings.ui.h:128
 msgid "Hotkeys will either be Super+Number or Super+Alt+Num"
 msgstr "ホットキーは Super + 数字キー、Super + Alt + 数字キーのどちらかです。"
 
-#: Settings.ui:3509
+#: Settings.ui.h:129
 msgid "Never"
 msgstr "表示しない"
 
-#: Settings.ui:3510
+#: Settings.ui.h:130
 msgid "Show temporarily"
 msgstr "一時的に表示"
 
-#: Settings.ui:3511
+#: Settings.ui.h:131
 msgid "Always visible"
 msgstr "常に表示"
 
-#: Settings.ui:3525
+#: Settings.ui.h:132
 msgid "Number overlay"
 msgstr "番号の表示"
 
-#: Settings.ui:3537
+#: Settings.ui.h:133
 msgid ""
 "Temporarily show the application numbers over the icons when using the "
 "hotkeys."
 msgstr ""
 "ホットキー使用時、アプリケーションのアイコン上に番号を一時的に表示します。"
 
-#: Settings.ui:3586
+#: Settings.ui.h:134
 msgid "Hide timeout (ms)"
 msgstr "非表示にするまでの時間 (ミリ秒)"
 
-#: Settings.ui:3616
+#: Settings.ui.h:135
 msgid "e.g. <Super>q"
 msgstr "例: <Super>q"
 
-#: Settings.ui:3629
+#: Settings.ui.h:136
 msgid "Shortcut to show the overlay for 2 seconds"
 msgstr "番号を 2 秒間表示するショートカットキー"
 
-#: Settings.ui:3676
+#: Settings.ui.h:137
 msgid "Show window previews on hotkey"
 msgstr "ホットキーでウィンドウプレビューを表示"
 
-#: Settings.ui:3703
+#: Settings.ui.h:138
 msgid "Show previews when the application have multiple instances"
 msgstr "アプリケーションのインスタンスが複数ある場合はプレビューを表示します"
 
-#: Settings.ui:3740
+#: Settings.ui.h:139
 msgid "Number row"
 msgstr "数字キー"
 
-#: Settings.ui:3741
+#: Settings.ui.h:140
 msgid "Numeric keypad"
 msgstr "テンキー"
 
-#: Settings.ui:3742
+#: Settings.ui.h:141
 msgid "Both"
 msgstr "両方"
 
-#: Settings.ui:3756
+#: Settings.ui.h:142
 msgid "Hotkeys are activated with"
 msgstr "ホットキーに使用するキー"
 
-#: Settings.ui:3768
+#: Settings.ui.h:143
 msgid "Select which keyboard number keys are used to activate the hotkeys"
 msgstr "キーボードのどちら側の数字キーをホットキーに使用するかを選択します"
 
-#: Settings.ui:3823
+#: Settings.ui.h:144
 msgid "Current Show Applications icon"
 msgstr "現在のアプリケーション表示アイコン"
 
-#: Settings.ui:3853
-msgid "Select a Show Applications image icon"
-msgstr "アプリケーション表示の画像アイコンを選択"
-
-#: Settings.ui:3865
+#: Settings.ui.h:145
 msgid "Custom Show Applications image icon"
 msgstr "カスタムアイコン"
 
-#: Settings.ui:3916
+#: Settings.ui.h:146
 msgid "Show Applications icon side padding (px)"
 msgstr "アプリケーション表示アイコンのパディング (px)"
 
-#: Settings.ui:3963
+#: Settings.ui.h:147
 msgid "Override escape key and return to desktop"
 msgstr "Esc キーで直接デスクトップに戻る"
 
-#: Settings.ui:3999
-msgid "Animate <i>Show Applications</i>."
-msgstr "<b>アプリケーションの表示</b>にアニメーションを使用"
-
-#: Settings.ui:4102
+#: Settings.ui.h:148
 msgid "Override Show Desktop line color"
 msgstr "デスクトップ表示ボタンの境目の色を上書き"
 
-#: Settings.ui:4173
+#: Settings.ui.h:149
 msgid "Reveal the desktop when hovering the Show Desktop button"
 msgstr "デスクトップ表示ボタンにマウスホバーでデスクトップを表示"
 
-#: Settings.ui:4204
+#: Settings.ui.h:150
 msgid "Delay before revealing the desktop (ms)"
 msgstr "表示するまでの遅延時間 (ミリ秒)"
 
-#: Settings.ui:4234
+#: Settings.ui.h:151
 msgid "Fade duration (ms)"
 msgstr "フェード時間 (ミリ秒)"
 
-#: Settings.ui:4341
+#: Settings.ui.h:152
 msgid "The panel background opacity is affected by"
 msgstr "パネル背景の不透明度に影響を与えるウィンドウ"
 
-#: Settings.ui:4403
+#: Settings.ui.h:153
 msgid "Change opacity when a window gets closer than (px)"
 msgstr "不透明度を変更するウィンドウの距離 (px)"
 
-#: Settings.ui:4433
+#: Settings.ui.h:155
 #, no-c-format
 msgid "Change opacity to (%)"
 msgstr "不透明度を次に変更 (%)"
 
-#: Settings.ui:4496
+#: Settings.ui.h:156
 msgid "Opacity change animation duration (ms)"
 msgstr "不透明度変更アニメーションの継続時間 (ミリ秒)"
 
-#: Settings.ui:4572
+#: Settings.ui.h:157
 msgid "Display the main panel on"
 msgstr "メインパネルの表示"
 
-#: Settings.ui:4614
+#: Settings.ui.h:158
 msgid "Display panels on all monitors"
 msgstr "すべてのモニターにパネルを表示"
 
-#: Settings.ui:4681
+#: Settings.ui.h:159
 msgid "Panel Intellihide"
 msgstr "パネルを自動的に隠す"
 
-#: Settings.ui:4745
+#: Settings.ui.h:160
 msgid "Hide and reveal the panel according to preferences"
 msgstr "パネルを自動的に隠したり表示したりします"
 
-#: Settings.ui:4798
+#: Settings.ui.h:161
 msgid "Order and positions on monitor"
 msgstr "モニター上での順序と位置"
 
-#: Settings.ui:4819
+#: Settings.ui.h:162
 msgid "Apply changes to all monitors"
 msgstr "変更内容をすべてのモニターに適用する"
 
-#: Settings.ui:4843
-msgid "Panel screen position"
-msgstr "パネルの表示位置"
-
-#: Settings.ui:4898 Settings.ui:5259
-msgid "Left"
-msgstr "左"
-
-#: Settings.ui:4918 Settings.ui:5276
-msgid "Right"
-msgstr "右"
-
-#: Settings.ui:4991
-msgid "Position"
-msgstr "位置"
-
-#: Settings.ui:5036
-msgid ""
-"Panel Size\n"
-"(default is 48)"
+#: Settings.ui.h:163
+#, fuzzy
+msgid "Panel thickness&#10;(default is 48)"
 msgstr ""
 "パネルのサイズ\n"
 "(初期値は 48)"
 
-#: Settings.ui:5086
-msgid ""
-"App Icon Margin\n"
-"(default is 8)"
+#: Settings.ui.h:165
+#, fuzzy, no-c-format
+msgid "Panel length (%)&#10;(default is 100)"
+msgstr ""
+"パネルのサイズ\n"
+"(初期値は 48)"
+
+#: Settings.ui.h:169
+msgid "Anchor"
+msgstr ""
+
+#: Settings.ui.h:170
+msgid "Panel screen position"
+msgstr "パネルの表示位置"
+
+#: Settings.ui.h:173
+msgid "Position"
+msgstr "位置"
+
+#: Settings.ui.h:174
+#, fuzzy
+msgid "App Icon Margin&#10;(default is 8)"
 msgstr ""
 "アプリのアイコンのマージン\n"
 "(初期値は 8)"
 
-#: Settings.ui:5135
-msgid ""
-"App Icon Padding\n"
-"(default is 4)"
+#: Settings.ui.h:175
+#, fuzzy
+msgid "App Icon Padding&#10;(default is 4)"
 msgstr ""
 "アプリのアイコンのパディング\n"
 "(初期値は 4)"
 
-#: Settings.ui:5208
+#: Settings.ui.h:176
 msgid "Running indicator position"
 msgstr "実行中インジケーターの位置"
 
-#: Settings.ui:5321
+#: Settings.ui.h:177
 msgid "Running indicator style (Focused app)"
 msgstr "実行中インジケーターのスタイル (フォーカス)"
 
-#: Settings.ui:5365 Settings.ui:5426
+#: Settings.ui.h:178
 msgid "Dots"
 msgstr "ドット"
 
-#: Settings.ui:5366 Settings.ui:5427
+#: Settings.ui.h:179
 msgid "Squares"
 msgstr "四角形"
 
-#: Settings.ui:5367 Settings.ui:5428
+#: Settings.ui.h:180
 msgid "Dashes"
 msgstr "ダッシュ"
 
-#: Settings.ui:5368 Settings.ui:5429
+#: Settings.ui.h:181
 msgid "Segmented"
 msgstr "セグメント"
 
-#: Settings.ui:5369 Settings.ui:5430
+#: Settings.ui.h:182
 msgid "Solid"
 msgstr "ソリッド"
 
-#: Settings.ui:5370 Settings.ui:5431
+#: Settings.ui.h:183
 msgid "Ciliora"
 msgstr ""
 
-#: Settings.ui:5371 Settings.ui:5432
+#: Settings.ui.h:184
 msgid "Metro"
 msgstr "メトロ"
 
-#: Settings.ui:5410
+#: Settings.ui.h:185
 msgid "Running indicator style (Unfocused apps)"
 msgstr "実行中インジケーターのスタイル (非フォーカス)"
 
-#: Settings.ui:5486
+#: Settings.ui.h:186
 msgid "Override panel theme background color "
 msgstr "パネルテーマの背景色を上書き "
 
-#: Settings.ui:5559
+#: Settings.ui.h:187
 msgid "Override panel theme background opacity"
 msgstr "パネルテーマ背景の不透明度を上書き"
 
-#: Settings.ui:5592
+#: Settings.ui.h:189
 #, no-c-format
 msgid "Panel background opacity (%)"
 msgstr "パネル背景の不透明度 (%)"
 
-#: Settings.ui:5626
+#: Settings.ui.h:190
 msgid "Dynamic background opacity"
 msgstr "動的な背景透過"
 
-#: Settings.ui:5641
+#: Settings.ui.h:191
 msgid "Change opacity when a window gets close to the panel"
 msgstr "パネルにウィンドウが近づいたら不透明度を変更します"
 
-#: Settings.ui:5748
+#: Settings.ui.h:192
 msgid "Override panel theme gradient "
 msgstr "パネルテーマのグラデーションを上書き "
 
-#: Settings.ui:5781
+#: Settings.ui.h:194
 #, no-c-format
 msgid "Gradient top color and opacity (%)"
 msgstr "グラデーションの開始色と不透明度 (%)"
 
-#: Settings.ui:5794
+#: Settings.ui.h:196
 #, no-c-format
 msgid "Gradient bottom color and opacity (%)"
 msgstr "グラデーションの終了色と不透明度 (%)"
 
-#: Settings.ui:5910
+#: Settings.ui.h:197
+#, fuzzy
+msgid "Animate hovering app icons"
+msgstr "アプリケーション切り替え時のアニメーション効果"
+
+#: Settings.ui.h:198
 msgid "Style"
 msgstr "スタイル"
 
-#: Settings.ui:5969
+#: Settings.ui.h:199
 msgid "Show favorite applications"
 msgstr "お気に入りのアプリケーションを表示"
 
-#: Settings.ui:5982
+#: Settings.ui.h:200
 msgid "Show running applications"
 msgstr "実行中のアプリケーションを表示"
 
-#: Settings.ui:6019
+#: Settings.ui.h:201
 msgid "Show favorite applications on secondary panels"
 msgstr "お気に入りのアプリケーションをセカンダリーパネルに表示"
 
-#: Settings.ui:6064
+#: Settings.ui.h:202
 msgid "Show <i>AppMenu</i> button"
 msgstr "<b>アプリケーションメニュー</b>ボタンを表示"
 
-#: Settings.ui:6078
+#: Settings.ui.h:203
 msgid "Top Bar > Show App Menu must be enabled in Tweak Tool"
 msgstr ""
 "Tweak Tool で「トップバー」 > 「アプリケーションメニュー」を有効にする必要が"
 "あります"
 
-#: Settings.ui:6164
+#: Settings.ui.h:204
 msgid "Show window previews on hover"
 msgstr "マウスホバー時にウィンドウのプレビューを表示"
 
-#: Settings.ui:6190
+#: Settings.ui.h:205
 msgid "Show tooltip on hover"
 msgstr "マウスホバー時にツールチップを表示"
 
-#: Settings.ui:6235
+#: Settings.ui.h:206
 msgid "Isolate Workspaces"
 msgstr "アイコンをワークスペースごとに表示"
 
-#: Settings.ui:6261
+#: Settings.ui.h:207
 msgid "Isolate monitors"
 msgstr "モニターを分離"
 
-#: Settings.ui:6306
+#: Settings.ui.h:208
 msgid "Click empty space to close overview"
 msgstr "オーバービュー画面で何もないところをクリックしたらデスクトップに戻る"
 
-#: Settings.ui:6338
+#: Settings.ui.h:209
+msgid "Disable show overview on startup"
+msgstr ""
+
+#: Settings.ui.h:210
 msgid "Ungroup applications"
 msgstr "アプリケーションを非グループ化"
 
-#: Settings.ui:6421
+#: Settings.ui.h:211
 msgid "Behavior"
 msgstr "挙動"
 
-#: Settings.ui:6466
+#: Settings.ui.h:212
 msgid "Behaviour when clicking on the icon of a running application."
 msgstr "起動しているアプリケーションのアイコンをクリックしたときの挙動です。"
 
-#: Settings.ui:6483
+#: Settings.ui.h:213
 msgid "Click action"
 msgstr "クリック時の動作"
 
-#: Settings.ui:6528
+#: Settings.ui.h:214
 msgid "Toggle windows"
 msgstr "ウィンドウを切り替え"
 
-#: Settings.ui:6587
+#: Settings.ui.h:215
 msgid "Scroll panel action"
 msgstr "パネルスクロールの動作"
 
-#: Settings.ui:6601
+#: Settings.ui.h:216
 msgid "Behavior when mouse scrolling over the panel."
 msgstr "パネル上でマウススクロールしたときの挙動です。"
 
-#: Settings.ui:6630
+#: Settings.ui.h:217
 msgid "Scroll icon action"
 msgstr "アイコンスクロールの動作"
 
-#: Settings.ui:6644
+#: Settings.ui.h:218
 msgid "Behavior when mouse scrolling over an application icon."
 msgstr "アプリアイコン上でマウススクロールしたときの挙動です。"
 
-#: Settings.ui:6693 Settings.ui:6711
+#: Settings.ui.h:219
 msgid "Do nothing"
 msgstr "何もしない"
 
-#: Settings.ui:6694
+#: Settings.ui.h:220
 msgid "Switch workspace"
 msgstr "ワークスペースを切り替え"
 
-#: Settings.ui:6695 Settings.ui:6712
+#: Settings.ui.h:221
 msgid "Cycle windows"
 msgstr "ウィンドウを循環表示"
 
-#: Settings.ui:6696
+#: Settings.ui.h:222
 msgid "Change volume"
 msgstr "音量を変更"
 
-#: Settings.ui:6713
+#: Settings.ui.h:223
 msgid "Same as panel"
 msgstr "パネルと同様"
 
-#: Settings.ui:6785
+#: Settings.ui.h:224
 msgid ""
 "Enable Super+(0-9) as shortcuts to activate apps. It can also be used "
 "together with Shift and Ctrl."
@@ -876,95 +1179,90 @@ msgstr ""
 "アプリを起動するショートカット (Super + 0〜9) を有効にします。Shift や Ctrl "
 "と共に使用できます。"
 
-#: Settings.ui:6803
+#: Settings.ui.h:225
 msgid "Use hotkeys to activate apps"
 msgstr "ホットキーを使用してアプリを起動"
 
-#: Settings.ui:6886
+#: Settings.ui.h:226
 msgid "Action"
 msgstr "動作"
 
-#: Settings.ui:6933
-msgid ""
-"Tray Font Size\n"
-"(0 = theme default)"
+#: Settings.ui.h:227
+#, fuzzy
+msgid "Tray Font Size&#10;(0 = theme default)"
 msgstr ""
 "トレイのフォントサイズ\n"
 "(0 = テーマの既定値)"
 
-#: Settings.ui:6964
-msgid ""
-"LeftBox Font Size\n"
-"(0 = theme default)"
+#: Settings.ui.h:228
+#, fuzzy
+msgid "LeftBox Font Size&#10;(0 = theme default)"
 msgstr ""
 "LeftBox のフォントサイズ\n"
 "(0 = テーマの既定値)"
 
-#: Settings.ui:7037
-msgid ""
-"Tray Item Padding\n"
-"(-1 = theme default)"
+#: Settings.ui.h:229
+#, fuzzy
+msgid "Tray Item Padding&#10;(-1 = theme default)"
 msgstr ""
 "トレイアイテムのパディング\n"
 "(-1 = テーマの既定値)"
 
-#: Settings.ui:7068
-msgid ""
-"Status Icon Padding\n"
-"(-1 = theme default)"
+#: Settings.ui.h:230
+#, fuzzy
+msgid "Status Icon Padding&#10;(-1 = theme default)"
 msgstr ""
 "ステータスアイコンのパディング\n"
 "(-1 = テーマの既定値)"
 
-#: Settings.ui:7099
-msgid ""
-"LeftBox Padding\n"
-"(-1 = theme default)"
+#: Settings.ui.h:231
+#, fuzzy
+msgid "LeftBox Padding&#10;(-1 = theme default)"
 msgstr ""
 "LeftBox のパディング\n"
 "(-1 = テーマの既定値)"
 
-#: Settings.ui:7170
+#: Settings.ui.h:232
 msgid "Animate switching applications"
 msgstr "アプリケーション切り替え時のアニメーション効果"
 
-#: Settings.ui:7207
+#: Settings.ui.h:233
 msgid "Animate launching new windows"
 msgstr "新しいウィンドウを開くときのアニメーション効果"
 
-#: Settings.ui:7258
+#: Settings.ui.h:234
 msgid "Keep original gnome-shell dash (overview)"
 msgstr "オリジナルの GNOME Shell Dash を維持 (オーバービュー画面)"
 
-#: Settings.ui:7283
+#: Settings.ui.h:235
 msgid "Force Activities hot corner on primary monitor"
 msgstr "プライマリーモニターのアクティビティホットコーナーを強制"
 
-#: Settings.ui:7308
+#: Settings.ui.h:236
 msgid "Activate panel menu buttons (e.g. date menu) on click only"
 msgstr "パネルの日付メニューやシステムメニューをクリック時のみ有効化"
 
-#: Settings.ui:7333
+#: Settings.ui.h:237
 msgid "Keep original gnome-shell top panel"
 msgstr "オリジナルの GNOME Shell トップバーを維持"
 
-#: Settings.ui:7400
+#: Settings.ui.h:238
 msgid "App icon secondary (right-click) menu"
 msgstr "アプリアイコンのセカンダリー (右クリック) メニュー"
 
-#: Settings.ui:7470
+#: Settings.ui.h:240
 msgid "Fine-Tune"
 msgstr "微調整"
 
-#: Settings.ui:7516
+#: Settings.ui.h:241
 msgid "version: "
 msgstr "バージョン: "
 
-#: Settings.ui:7546
+#: Settings.ui.h:242
 msgid "GitHub"
 msgstr "GitHub"
 
-#: Settings.ui:7599
+#: Settings.ui.h:243
 msgid ""
 "Use the buttons below to create a settings file from your current "
 "preferences that can be imported on a different machine."
@@ -972,356 +1270,136 @@ msgstr ""
 "以下のボタンを使用して現在の設定から設定ファイルを作成し、別のマシンにイン"
 "ポートできます。"
 
-#: Settings.ui:7617
+#: Settings.ui.h:244
 msgid "Export and import settings"
 msgstr "設定のエクスポートとインポート"
 
-#: Settings.ui:7627
+#: Settings.ui.h:245
 msgid "Export to file"
 msgstr "ファイルにエクスポート"
 
-#: Settings.ui:7639
+#: Settings.ui.h:246
 msgid "Import from file"
 msgstr "ファイルからインポート"
 
-#: Settings.ui:7695
+#: Settings.ui.h:247
+#, fuzzy
 msgid ""
-"This allows you to update the extension directly from the GitHub repository."
-msgstr "GitHub のリポジトリから拡張機能を直接アップデートできます。"
-
-#: Settings.ui:7714
-msgid "Updates"
-msgstr "アップデート"
-
-#: Settings.ui:7727
-msgid "Periodically check for updates"
-msgstr "アップデートを定期的に確認"
-
-#: Settings.ui:7755
-msgid "Check now"
-msgstr "今すぐ確認"
-
-#: Settings.ui:7779
-msgid ""
-"<span weight=\"bold\" color=\"#B42B30\">Be aware, these official Dash to "
-"Panel releases might not be reviewed yet on extensions.gnome.org!</span>  <a "
-"href=\"https://extensions.gnome.org/about/\">Read more</a>"
-msgstr ""
-"<span weight=\"bold\" color=\"#B42B30\">この機能でアップデートされる Dash to "
-"Panel は公式のものではありますが、まだ extensions.gnome.org でレビューされて"
-"いない可能性があることにご注意ください!</span>  <a href=\"https://extensions."
-"gnome.org/about/\">詳細はこちら</a>"
-
-#: Settings.ui:7811
-msgid ""
-"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\n"
-"See the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-"\">GNU General Public License, version 2 or later</a> for details.</span>"
+"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.&#10;See "
+"the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
+"General Public License, version 2 or later</a> for details.</span>"
 msgstr ""
 "<span size=\"small\">このプログラムは全くの無保証です。\n"
 "詳しくは <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0-"
 "translations.html\">GNU General Public License, version 2 またはそれ以降</a> "
 "をご確認ください。</span>"
 
-#: Settings.ui:7832
+#: Settings.ui.h:248
 msgid "About"
 msgstr "Dash to Panel について"
 
-#: appIcons.js:1422
-msgid "Show Details"
-msgstr "詳細を表示"
+#~ msgid "Select a Show Applications image icon"
+#~ msgstr "アプリケーション表示の画像アイコンを選択"
 
-#: appIcons.js:1440
-msgid "New Window"
-msgstr "新しいウィンドウ"
+#~ msgid "Animate <i>Show Applications</i>."
+#~ msgstr "<b>アプリケーションの表示</b>にアニメーションを使用"
 
-#: Settings.ui:136 Settings.ui:207 Settings.ui:278 appIcons.js:1440
-#: appIcons.js:1500 appIcons.js:1502
-msgid "Quit"
-msgstr "終了"
+#~ msgid ""
+#~ "This allows you to update the extension directly from the GitHub "
+#~ "repository."
+#~ msgstr "GitHub のリポジトリから拡張機能を直接アップデートできます。"
 
-#: appIcons.js:1502
-msgid "Windows"
-msgstr "個のウィンドウ"
+#~ msgid "Updates"
+#~ msgstr "アップデート"
 
-#: appIcons.js:1792
-msgid "Power options"
-msgstr "電源オプション"
+#~ msgid "Periodically check for updates"
+#~ msgstr "アップデートを定期的に確認"
 
-#: appIcons.js:1797
-msgid "Event logs"
-msgstr "イベントログ"
+#~ msgid "Check now"
+#~ msgstr "今すぐ確認"
 
-#: appIcons.js:1802
-msgid "System"
-msgstr "システム"
+#~ msgid ""
+#~ "<span weight=\"bold\" color=\"#B42B30\">Be aware, these official Dash to "
+#~ "Panel releases might not be reviewed yet on extensions.gnome.org!</span>  "
+#~ "<a href=\"https://extensions.gnome.org/about/\">Read more</a>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" color=\"#B42B30\">この機能でアップデートされる Dash "
+#~ "to Panel は公式のものではありますが、まだ extensions.gnome.org でレビュー"
+#~ "されていない可能性があることにご注意ください!</span>  <a href=\"https://"
+#~ "extensions.gnome.org/about/\">詳細はこちら</a>"
 
-#: appIcons.js:1807
-msgid "Device Management"
-msgstr "デバイス管理"
+#~ msgid "Show Details"
+#~ msgstr "詳細を表示"
 
-#: appIcons.js:1812
-msgid "Disk Management"
-msgstr "ディスク管理"
+#~ msgid "New Window"
+#~ msgstr "新しいウィンドウ"
 
-#: appIcons.js:1826
-msgid "Terminal"
-msgstr "端末"
+#~ msgid "Power options"
+#~ msgstr "電源オプション"
 
-#: appIcons.js:1831
-msgid "System monitor"
-msgstr "システムモニター"
+#~ msgid "Event logs"
+#~ msgstr "イベントログ"
 
-#: appIcons.js:1836
-msgid "Files"
-msgstr "ファイル"
+#~ msgid "System"
+#~ msgstr "システム"
 
-#: appIcons.js:1841
-msgid "Extensions"
-msgstr "拡張機能"
+#~ msgid "Device Management"
+#~ msgstr "デバイス管理"
 
-#: appIcons.js:1846
-msgid "Settings"
-msgstr "設定"
+#~ msgid "Disk Management"
+#~ msgstr "ディスク管理"
 
-#: appIcons.js:1851
-msgid "Unlock taskbar"
-msgstr "タスクバーをロック解除"
+#~ msgid "Terminal"
+#~ msgstr "端末"
 
-#: appIcons.js:1851
-msgid "Lock taskbar"
-msgstr "タスクバーをロック"
+#~ msgid "System monitor"
+#~ msgstr "システムモニター"
 
-#: appIcons.js:1856
-msgid "Dash to Panel Settings"
-msgstr "Dash to Panel の設定"
+#~ msgid "Files"
+#~ msgstr "ファイル"
 
-#: appIcons.js:1869
-msgid "Restore Windows"
-msgstr "ウィンドウを復元"
+#~ msgid "Settings"
+#~ msgstr "設定"
 
-#: appIcons.js:1869
-msgid "Show Desktop"
-msgstr "デスクトップを表示"
+#~ msgid "Top Bar"
+#~ msgstr "トップバー"
 
-#: panel.js:201
-msgid "Top Bar"
-msgstr "トップバー"
+#~ msgid "Unavailable when installed from extensions.gnome.org"
+#~ msgstr "extensions.gnome.org からインストールした場合は利用できません"
 
-#: prefs.js:206
-msgid "Show Desktop button height (px)"
-msgstr "デスクトップ表示ボタンの高さ (px)"
-
-#: prefs.js:206
-msgid "Show Desktop button width (px)"
-msgstr "デスクトップ表示ボタンの幅 (px)"
-
-#: prefs.js:218
-msgid "Unavailable when gnome-shell top panel is present"
-msgstr "GNOME Shell のトップバーが表示されている場合は利用できません"
-
-#: prefs.js:293
-msgid "Show Applications button"
-msgstr "アプリケーション表示ボタン"
-
-#: prefs.js:294
-msgid "Activities button"
-msgstr "アクティビティボタン"
-
-#: prefs.js:295
-msgid "Taskbar"
-msgstr "タスクバー"
-
-#: prefs.js:296
-msgid "Date menu"
-msgstr "日付メニュー"
-
-#: prefs.js:297
-msgid "System menu"
-msgstr "システムメニュー"
-
-#: prefs.js:298
-msgid "Left box"
-msgstr "左ボックス"
-
-#: prefs.js:299
-msgid "Center box"
-msgstr "中央ボックス"
-
-#: prefs.js:300
-msgid "Right box"
-msgstr "右ボックス"
-
-#: prefs.js:301
-msgid "Desktop button"
-msgstr "デスクトップボタン"
-
-#: prefs.js:307
-msgid "Move up"
-msgstr "上へ移動"
-
-#: prefs.js:309
-msgid "Move down"
-msgstr "下へ移動"
-
-#: prefs.js:311
-msgid "Visible"
-msgstr "表示"
-
-#: prefs.js:312
-msgid "Select element position"
-msgstr "要素の位置を選択してください"
-
-#: prefs.js:323
-msgid "Stacked to top"
-msgstr "上寄せ"
-
-#: prefs.js:323
-msgid "Stacked to left"
-msgstr "左寄せ"
-
-#: prefs.js:324
-msgid "Stacked to bottom"
-msgstr "下寄せ"
-
-#: prefs.js:324
-msgid "Stacked to right"
-msgstr "右寄せ"
-
-#: prefs.js:325
-msgid "Centered"
-msgstr "中央"
-
-#: prefs.js:326
-msgid "Monitor Center"
-msgstr "モニターの中央"
-
-#: prefs.js:345
-msgid "More options"
-msgstr "その他のオプション"
-
-#: prefs.js:369
-msgid "Show Applications options"
-msgstr "アプリケーション表示のオプション"
-
-#: prefs.js:376 prefs.js:433 prefs.js:576 prefs.js:894 prefs.js:1037
-#: prefs.js:1164 prefs.js:1450 prefs.js:1545 prefs.js:1610 prefs.js:1653
-#: prefs.js:1750 prefs.js:1784 prefs.js:1826
-msgid "Reset to defaults"
-msgstr "初期設定に戻す"
-
-#: prefs.js:426
-msgid "Show Desktop options"
-msgstr "デスクトップ表示のオプション"
-
-#: prefs.js:569
-msgid "Running Indicator Options"
-msgstr "実行中インジケーターのオプション"
-
-#: prefs.js:732
-msgid "Primary monitor"
-msgstr "プライマリーモニター"
-
-#: prefs.js:732
-msgid "Monitor "
-msgstr "モニター "
-
-#: prefs.js:887
-msgid "Dynamic opacity options"
-msgstr "動的不透明度のオプション"
-
-#: prefs.js:1030
-msgid "Intellihide options"
-msgstr "Intellihide のオプション"
-
-#: prefs.js:1157
-msgid "Window preview options"
-msgstr "ウィンドウプレビューのオプション"
-
-#: prefs.js:1443
-msgid "Ungrouped application options"
-msgstr "アプリケーション非グループ化のオプション"
-
-#: prefs.js:1538
-msgid "Customize middle-click behavior"
-msgstr "中クリックの挙動のカスタマイズ"
-
-#: prefs.js:1603
-msgid "Customize panel scroll behavior"
-msgstr "パネルスクロールの挙動のカスタマイズ"
-
-#: prefs.js:1646
-msgid "Customize icon scroll behavior"
-msgstr "アイコンスクロールの挙動のカスタマイズ"
-
-#: prefs.js:1743
-msgid "Advanced hotkeys options"
-msgstr "高度なホットキーのオプション"
-
-#: prefs.js:1777
-msgid "Secondary Menu Options"
-msgstr "右クリックメニューのオプション"
-
-#: Settings.ui:7448 prefs.js:1819
-msgid "Advanced Options"
-msgstr "高度なオプション"
-
-#: prefs.js:1922
-msgid "Export settings"
-msgstr "設定のエクスポート"
-
-#: prefs.js:1939
-msgid "Import settings"
-msgstr "設定のインポート"
-
-#: update.js:48
-msgid "Unavailable when installed from extensions.gnome.org"
-msgstr "extensions.gnome.org からインストールした場合は利用できません"
-
-#: update.js:62
 #, javascript-format
-msgid "Version %s (%s) is available"
-msgstr "バージョン %s (%s) が利用可能です"
+#~ msgid "Version %s (%s) is available"
+#~ msgstr "バージョン %s (%s) が利用可能です"
 
-#: update.js:63
-msgid "Details"
-msgstr "詳細"
+#~ msgid "Details"
+#~ msgstr "詳細"
 
-#: update.js:64
-msgid "Update"
-msgstr "アップデート"
+#~ msgid "Update"
+#~ msgstr "アップデート"
 
-#: update.js:67
-msgid "Already up to date"
-msgstr "すでに最新です"
+#~ msgid "Already up to date"
+#~ msgstr "すでに最新です"
 
-#: update.js:75
-msgid "Error: "
-msgstr "エラー: "
+#~ msgid "Error: "
+#~ msgstr "エラー: "
 
-#: update.js:168
-msgid "Update successful, please log out/in"
-msgstr "アップデート成功: ログインしなおしてください"
+#~ msgid "Update successful, please log out/in"
+#~ msgstr "アップデート成功: ログインしなおしてください"
 
-#: update.js:169
-msgid "Log out"
-msgstr "ログアウト"
+#~ msgid "Log out"
+#~ msgstr "ログアウト"
 
-#: update.js:173
-msgid "Update successful, please restart GNOME Shell"
-msgstr "アップデート成功: GNOME Shell を再起動してください"
+#~ msgid "Update successful, please restart GNOME Shell"
+#~ msgstr "アップデート成功: GNOME Shell を再起動してください"
 
-#: update.js:174
-msgid "Restart GNOME Shell"
-msgstr "GNOME Shell を再起動"
+#~ msgid "Restart GNOME Shell"
+#~ msgstr "GNOME Shell を再起動"
 
-#: update.js:174
-msgid "Restarting GNOME Shell..."
-msgstr "GNOME Shell を再起動しています..."
+#~ msgid "Restarting GNOME Shell..."
+#~ msgstr "GNOME Shell を再起動しています..."
 
-#: windowPreview.js:934
-msgid "Move to current Workspace"
-msgstr "現在のワークスペースに移動"
+#~ msgid "Move to current Workspace"
+#~ msgstr "現在のワークスペースに移動"
 
 #~ msgid "Display favorite applications on all monitors"
 #~ msgstr "すべてのモニターにお気に入りのアプリケーションを表示"
