@@ -4,9 +4,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dash-to-panel 24\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-10 18:36+0800\n"
+"Project-Id-Version: dash-to-panel\n"
+"Report-Msgid-Bugs-To: https://github.com/miigotu/dash-to-panel/issues\n"
+"POT-Creation-Date: 2022-03-28 00:55-0400\n"
 "PO-Revision-Date: 2021-07-11 12:04+0800\n"
 "Last-Translator: mars <18466397+zhmars@users.noreply.github.com>\n"
 "Language-Team: Chinese (Simplified) <debian-l10n-chinese@lists.debian.org>\n"
@@ -17,141 +17,141 @@ msgstr ""
 "X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: prefs.js:200
+#: prefs.js:199
 msgid "Show Desktop button height (px)"
 msgstr "“显示桌面”按钮图标高度（像素）"
 
-#: prefs.js:200
+#: prefs.js:199
 msgid "Show Desktop button width (px)"
 msgstr "“显示桌面”按钮图标宽度（像素）"
 
-#: prefs.js:212
+#: prefs.js:211
 msgid "Unavailable when gnome-shell top panel is present"
 msgstr "GNOME-Shell 顶部面板存在时不可用"
 
-#: prefs.js:270 Settings.ui.h:171
+#: prefs.js:269 Settings.ui.h:171
 msgid "Left"
 msgstr "左侧"
 
-#: prefs.js:271
+#: prefs.js:270
 msgid "Center"
 msgstr "中间"
 
-#: prefs.js:272 Settings.ui.h:172
+#: prefs.js:271 Settings.ui.h:172
 msgid "Right"
 msgstr "右侧"
 
-#: prefs.js:274 Settings.ui.h:106
+#: prefs.js:273 Settings.ui.h:106
 msgid "Top"
 msgstr "顶部"
 
-#: prefs.js:275 prefs.js:280 Settings.ui.h:167
+#: prefs.js:274 prefs.js:279 Settings.ui.h:167
 msgid "Middle"
 msgstr "中部"
 
-#: prefs.js:276 Settings.ui.h:105
+#: prefs.js:275 Settings.ui.h:105
 msgid "Bottom"
 msgstr "底部"
 
-#: prefs.js:279 Settings.ui.h:166
+#: prefs.js:278 Settings.ui.h:166
 msgid "Start"
 msgstr "首部"
 
-#: prefs.js:281 Settings.ui.h:168
+#: prefs.js:280 Settings.ui.h:168
 msgid "End"
 msgstr "尾部"
 
-#: prefs.js:366
+#: prefs.js:365
 msgid "Show Applications button"
 msgstr "“显示应用程序”按钮"
 
-#: prefs.js:367
+#: prefs.js:366
 msgid "Activities button"
 msgstr "“活动”按钮"
 
-#: prefs.js:368
+#: prefs.js:367
 msgid "Taskbar"
 msgstr "任务栏"
 
-#: prefs.js:369
+#: prefs.js:368
 msgid "Date menu"
 msgstr "日期菜单"
 
-#: prefs.js:370
+#: prefs.js:369
 msgid "System menu"
 msgstr "系统菜单"
 
-#: prefs.js:371
+#: prefs.js:370
 msgid "Left box"
 msgstr "Left box"
 
-#: prefs.js:372
+#: prefs.js:371
 msgid "Center box"
 msgstr "Center box"
 
-#: prefs.js:373
+#: prefs.js:372
 msgid "Right box"
 msgstr "Right box"
 
-#: prefs.js:374
+#: prefs.js:373
 msgid "Desktop button"
 msgstr "“桌面”按钮"
 
-#: prefs.js:380
+#: prefs.js:379
 msgid "Move up"
 msgstr "上移"
 
-#: prefs.js:382
+#: prefs.js:381
 msgid "Move down"
 msgstr "下移"
 
-#: prefs.js:384
+#: prefs.js:383
 msgid "Visible"
 msgstr "显示"
 
-#: prefs.js:385
+#: prefs.js:384
 msgid "Select element position"
 msgstr "选择元素位置"
 
-#: prefs.js:396
+#: prefs.js:395
 msgid "Stacked to top"
 msgstr "堆叠到顶部"
 
-#: prefs.js:396
+#: prefs.js:395
 msgid "Stacked to left"
 msgstr "堆叠到左侧"
 
-#: prefs.js:397
+#: prefs.js:396
 msgid "Stacked to bottom"
 msgstr "堆叠到底部"
 
-#: prefs.js:397
+#: prefs.js:396
 msgid "Stacked to right"
 msgstr "堆叠到右侧"
 
-#: prefs.js:398
+#: prefs.js:397
 msgid "Centered"
 msgstr "居中"
 
-#: prefs.js:399
+#: prefs.js:398
 msgid "Monitor Center"
 msgstr "显示器中间"
 
-#: prefs.js:418
+#: prefs.js:417
 msgid "More options"
 msgstr "更多选项"
 
-#: prefs.js:440
+#: prefs.js:439
 msgid "Show Applications options"
 msgstr "“显示应用程序”选项"
 
-#: prefs.js:447 prefs.js:512 prefs.js:732 prefs.js:1078 prefs.js:1222
+#: prefs.js:446 prefs.js:512 prefs.js:732 prefs.js:1078 prefs.js:1222
 #: prefs.js:1345 prefs.js:1634 prefs.js:1730 prefs.js:1796 prefs.js:1840
 #: prefs.js:1938 prefs.js:1973 prefs.js:2016 prefs.js:2152
 msgid "Reset to defaults"
 msgstr "恢复默认值"
 
-#: prefs.js:453
+#: prefs.js:452
 msgid "Open icon"
 msgstr "打开图标"
 
@@ -166,8 +166,8 @@ msgstr "%d ms"
 
 #: prefs.js:610
 #, javascript-format
-msgid "%d ."
-msgstr "%d ."
+msgid "%d °"
+msgstr ""
 
 #: prefs.js:615 prefs.js:620
 #, javascript-format
@@ -249,80 +249,32 @@ msgstr "导出设置"
 msgid "Import settings"
 msgstr "导入设置"
 
-#: appIcons.js:1492
-msgid "Show Details"
-msgstr "显示细节"
-
-#: appIcons.js:1510
-msgid "New Window"
-msgstr "新建窗口"
-
-#: appIcons.js:1510 appIcons.js:1570 appIcons.js:1572 Settings.ui.h:21
+#: appIcons.js:1483 appIcons.js:1491 appIcons.js:1493 Settings.ui.h:21
 msgid "Quit"
 msgstr "退出"
 
 # 上面的 Quit 和 这里的 Windows 组合，实际显示成“Quit %d Windows”，为更符合中文习惯，这里加了“个”
-#: appIcons.js:1572
+#: appIcons.js:1493
 msgid "Windows"
 msgstr "个窗口"
 
-#: appIcons.js:1859
-msgid "Power options"
-msgstr "电源选项"
-
-#: appIcons.js:1864
-msgid "Event logs"
-msgstr "事件日志"
-
-#: appIcons.js:1869
-msgid "System"
-msgstr "系统信息"
-
-#: appIcons.js:1874
-msgid "Device Management"
-msgstr "设备管理"
-
-#: appIcons.js:1879
-msgid "Disk Management"
-msgstr "磁盘管理"
-
-#: appIcons.js:1893
-msgid "Terminal"
-msgstr "终端"
-
-#: appIcons.js:1898
-msgid "System monitor"
-msgstr "系统监视器"
-
-#: appIcons.js:1903
-msgid "Files"
-msgstr "文件"
-
-#: appIcons.js:1908
-msgid "Extensions"
-msgstr "扩展"
-
-#: appIcons.js:1913
-msgid "Settings"
-msgstr "设置"
-
-#: appIcons.js:1925
+#: appIcons.js:1835
 msgid "Unlock taskbar"
 msgstr "解锁任务栏"
 
-#: appIcons.js:1925
+#: appIcons.js:1835
 msgid "Lock taskbar"
 msgstr "锁定任务栏"
 
-#: appIcons.js:1930
+#: appIcons.js:1840
 msgid "Dash to Panel Settings"
 msgstr "Dash to Panel 设置"
 
-#: appIcons.js:1943
+#: appIcons.js:1853
 msgid "Restore Windows"
 msgstr "恢复窗口"
 
-#: appIcons.js:1943
+#: appIcons.js:1853
 msgid "Show Desktop"
 msgstr "显示桌面"
 
@@ -1295,6 +1247,46 @@ msgstr ""
 msgid "About"
 msgstr "关于"
 
+#, javascript-format
+#~ msgid "%d ."
+#~ msgstr "%d ."
+
+#~ msgid "Show Details"
+#~ msgstr "显示细节"
+
+#~ msgid "New Window"
+#~ msgstr "新建窗口"
+
+#~ msgid "Power options"
+#~ msgstr "电源选项"
+
+#~ msgid "Event logs"
+#~ msgstr "事件日志"
+
+#~ msgid "System"
+#~ msgstr "系统信息"
+
+#~ msgid "Device Management"
+#~ msgstr "设备管理"
+
+#~ msgid "Disk Management"
+#~ msgstr "磁盘管理"
+
+#~ msgid "Terminal"
+#~ msgstr "终端"
+
+#~ msgid "System monitor"
+#~ msgstr "系统监视器"
+
+#~ msgid "Files"
+#~ msgstr "文件"
+
+#~ msgid "Extensions"
+#~ msgstr "扩展"
+
+#~ msgid "Settings"
+#~ msgstr "设置"
+
 #~ msgid "Top, with plugin icons collapsed to bottom"
 #~ msgstr "顶部，并且插件图标收缩到底部"
 
@@ -1433,8 +1425,8 @@ msgstr "关于"
 #~ "<a href=\"https://extensions.gnome.org/about/\">Read more</a>"
 #~ msgstr ""
 #~ "<span weight=\"bold\" color=\"#B42B30\">请注意，这些官方发布的 Dash to "
-#~ "Panel 版本可能还没有通过 extensions.gnome.org 的审查！</span>  <a href="
-#~ "\"https://extensions.gnome.org/about/\">详细了解</a>"
+#~ "Panel 版本可能还没有通过 extensions.gnome.org 的审查！</span>  <a "
+#~ "href=\"https://extensions.gnome.org/about/\">详细了解</a>"
 
 #~ msgid "Highlight color"
 #~ msgstr "高亮颜色"
